@@ -1,0 +1,19 @@
+metadata:
+  job_info: 
+  default_output_dir: reports/chain_experiment
+
+  circuits:
+  - name: qft_8
+    path: benchmarks/ai_transpile/qasm/qft_8.qasm
+    gate_set: IBMN
+    tags: [qft, algorithmic, chain_experiment]
+
+  - name: efficient_su2_12
+    path: benchmarks/ai_transpile/qasm/efficient_su2_12.qasm
+    gate_set: IBMN
+    tags: [efficient_su2, variational, chain_experiment]
+
+  - name: real_amplitudes_8_r2
+    path: benchmarks/ai_transpile/qasm/real_amplitudes_8_r2.qasm
+    gate_set: IBMN
+    tags: [real_amplitudes, variational, chain_experiment]
