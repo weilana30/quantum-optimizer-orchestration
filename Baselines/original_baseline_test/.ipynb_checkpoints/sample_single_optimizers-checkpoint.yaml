@@ -1,0 +1,111 @@
+metadata:
+  description: >
+    Single-optimizer baseline experiment for sampled circuits.
+  job_info: sample_single_optimizers
+  default_output_dir: Baselines/original_baseline_test/results
+
+circuits:
+  - name: efficient_su2_12
+    path: Baselines/original_baseline_test/sample_circuits/efficient_su2_12.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: efficient_su2_8
+    path: Baselines/original_baseline_test/sample_circuits/efficient_su2_8.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: qaoa_barabasi_albert_N10_3reps
+    path: Baselines/original_baseline_test/sample_circuits/qaoa_barabasi_albert_N10_3reps.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: qaoa_barabasi_albert_N11_3reps
+    path: Baselines/original_baseline_test/sample_circuits/qaoa_barabasi_albert_N11_3reps.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: qft_N007
+    path: Baselines/original_baseline_test/sample_circuits/qft_N007.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: qft_N013
+    path: Baselines/original_baseline_test/sample_circuits/qft_N013.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: qv_N002_12345
+    path: Baselines/original_baseline_test/sample_circuits/qv_N002_12345.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: qv_N007_12345
+    path: Baselines/original_baseline_test/sample_circuits/qv_N007_12345.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: real_amplitudes_12_r3
+    path: Baselines/original_baseline_test/sample_circuits/real_amplitudes_12_r3.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: real_amplitudes_8_r2
+    path: Baselines/original_baseline_test/sample_circuits/real_amplitudes_8_r2.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: square_heisenberg_N16
+    path: Baselines/original_baseline_test/sample_circuits/square_heisenberg_N16.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: square_heisenberg_N4
+    path: Baselines/original_baseline_test/sample_circuits/square_heisenberg_N4.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: tof_10
+    path: Baselines/original_baseline_test/sample_circuits/tof_10.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+  - name: tof_5
+    path: Baselines/original_baseline_test/sample_circuits/tof_5.qasm
+    gate_set: IBMN
+    tags: [sample]
+
+runners:
+  - name: wisq_rules
+    type: wisq
+    target_gateset: IBMN
+    optimization_objective: TWO_Q
+    approx_epsilon: 0
+    opt_timeout: 180
+
+  - name: wisq_bqskit
+    type: wisq
+    target_gateset: IBMN
+    optimization_objective: TWO_Q
+    approx_epsilon: 1e-10
+    opt_timeout: 900
+
+  - name: tket
+    type: tket
+    gate_set: IBMN
+
+  - name: qiskit_ai
+    type: qiskit_ai
+    optimization_levels: [3]
+    iterations_per_level: 1
+    layout_mode: optimize
+
+  - name: qiskit_standard
+    type: qiskit_standard
+    optimization_levels: [3]
+
+metrics:
+  - depth
+  - two_qubit_gates
+  - two_qubit_depth
+  - total_gates
