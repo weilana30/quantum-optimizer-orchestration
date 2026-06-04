@@ -1,0 +1,15 @@
+category,Unnamed: 0,id,name,source,qasm_path,num_qubits,initial_depth,initial_two_qubit_gates,initial_two_qubit_depth,initial_total_gates,gate_density,two_qubit_ratio,created_at,optimizer_chain,original_circuit
+efficient_su2,1,2,efficient_su2_12,local,benchmarks/ai_transpile/qasm/efficient_su2_12.qasm,12,25,66,21,114,9.5,0.5789473684210527,2026-03-05 20:39:31,,efficient_su2_12
+efficient_su2,4,5,efficient_su2_8,local,benchmarks/ai_transpile/qasm/efficient_su2_8.qasm,8,27,56,21,104,13.0,0.5384615384615384,2026-03-05 20:39:31,,efficient_su2_8
+feynman,38,39,tof_10,local,benchmarks/ai_transpile/qasm/feynman/tof_10.qasm,19,53,0,0,85,4.473684210526316,0.0,2026-03-05 20:39:33,,tof_10
+feynman,41,42,tof_5,local,benchmarks/ai_transpile/qasm/feynman/tof_5.qasm,9,23,0,0,35,3.888888888888889,0.0,2026-03-05 20:39:33,,tof_5
+qaoa,43,44,qaoa_barabasi_albert_N10_3reps,local,benchmarks/ai_transpile/qasm/qaoa/qaoa_barabasi_albert_N10_3reps.qasm,10,83,96,52,194,19.4,0.4948453608247423,2026-03-05 20:39:33,,qaoa_barabasi_albert_N10_3reps
+qaoa,44,45,qaoa_barabasi_albert_N11_3reps,local,benchmarks/ai_transpile/qasm/qaoa/qaoa_barabasi_albert_N11_3reps.qasm,11,86,108,54,217,19.727272727272727,0.4976958525345622,2026-03-05 20:39:33,,qaoa_barabasi_albert_N11_3reps
+qft,76,77,qft_N013,local,benchmarks/ai_transpile/qasm/qft/qft_N013.qasm,13,100,174,49,434,33.38461538461539,0.4009216589861751,2026-03-05 20:39:34,,qft_N013
+qft,70,71,qft_N007,local,benchmarks/ai_transpile/qasm/qft/qft_N007.qasm,7,52,51,25,128,18.285714285714285,0.3984375,2026-03-05 20:39:33,,qft_N007
+qv,84,85,qv_N002_12345,local,benchmarks/ai_transpile/qasm/qv/qv_N002_12345.qasm,2,46,6,6,86,43.0,0.0697674418604651,2026-03-05 20:39:34,,qv_N002_12345
+qv,89,90,qv_N007_12345,local,benchmarks/ai_transpile/qasm/qv/qv_N007_12345.qasm,7,161,63,21,903,129.0,0.0697674418604651,2026-03-05 20:39:34,,qv_N007_12345
+real_amplitudes,104,105,real_amplitudes_12_r3,local,benchmarks/ai_transpile/qasm/real_amplitudes_12_r3.qasm,12,19,33,15,81,6.75,0.4074074074074074,2026-03-05 20:39:34,,real_amplitudes_12_r3
+real_amplitudes,107,108,real_amplitudes_8_r2,local,benchmarks/ai_transpile/qasm/real_amplitudes_8_r2.qasm,8,12,14,9,38,4.75,0.3684210526315789,2026-03-05 20:39:34,,real_amplitudes_8_r2
+square-heisenberg,108,109,square_heisenberg_N16,local,benchmarks/ai_transpile/qasm/square-heisenberg/square_heisenberg_N16.qasm,16,361,288,144,1024,64.0,0.28125,2026-03-05 20:39:34,,square_heisenberg_N16
+square-heisenberg,109,110,square_heisenberg_N4,local,benchmarks/ai_transpile/qasm/square-heisenberg/square_heisenberg_N4.qasm,4,121,48,48,172,43.0,0.2790697674418604,2026-03-05 20:39:34,,square_heisenberg_N4
