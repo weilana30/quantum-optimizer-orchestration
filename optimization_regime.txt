@@ -1,0 +1,40 @@
+#Defines how optimizers are allowed to operate to ensure consistency
+
+Input:
+    Logical quantum circuit
+
+Allowed Operations:
+    - Gate cancellation
+    - Gate merging
+    - Commutation-based rewrites
+    - Template matching
+    - Peephole optimization
+    - Block collection
+    - Synthesis
+    - Resynthesis
+    - Logical qubit permutation
+    - Rebase to common basis Synthesis
+
+Disallowed Operations:
+    - Layout selection
+    - Physical qubit assignment
+    - Coupling-map-aware optimization
+    - Routing
+    - SWAP insertion
+    - Scheduling
+    - Noise-aware compilation
+    - Calibration-aware compilation
+    - Pulse-level optimization
+    - Backend-specific Synthesis
+    - Hardware-specific gate substitutions
+    
+Output:
+    - Logical quantum circuit
+
+Metrics:
+    - 2Q gate count 
+    - Depth
+    - Runtime
+
+Basis:
+    basis_gates=["id", "rz", "sx", "x", "cx"]
