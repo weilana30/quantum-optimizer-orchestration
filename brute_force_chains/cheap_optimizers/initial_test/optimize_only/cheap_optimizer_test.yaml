@@ -1,0 +1,327 @@
+metadata:
+  description: Sample chain test using qiskit_ai, qiskit_standard, and tket only.
+  job_info: fast_chain_sample
+  default_output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/
+circuits:
+- name: qft_8
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qft_8.qasm
+  gate_set: IBMN
+  tags:
+  - sample
+  - qft
+runners:
+- name: qiskit_ai
+  type: chain
+  steps:
+  - &id001
+    type: qiskit_ai
+    name: qiskit_ai
+    optimization_levels:
+    - 3
+    iterations_per_level: 1
+    layout_mode: optimize
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai
+- name: qiskit_standard
+  type: chain
+  steps:
+  - &id002
+    type: qiskit_standard
+    name: qiskit_standard
+    optimization_levels:
+    - 3
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard
+- name: tket
+  type: chain
+  steps:
+  - &id003
+    type: tket
+    name: tket
+    gate_set: IBMN
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket
+- name: qiskit_ai__qiskit_ai
+  type: chain
+  steps:
+  - *id001
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__qiskit_ai
+- name: qiskit_ai__qiskit_standard
+  type: chain
+  steps:
+  - *id001
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__qiskit_standard
+- name: qiskit_ai__tket
+  type: chain
+  steps:
+  - *id001
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__tket
+- name: qiskit_standard__qiskit_ai
+  type: chain
+  steps:
+  - *id002
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__qiskit_ai
+- name: qiskit_standard__qiskit_standard
+  type: chain
+  steps:
+  - *id002
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__qiskit_standard
+- name: qiskit_standard__tket
+  type: chain
+  steps:
+  - *id002
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__tket
+- name: tket__qiskit_ai
+  type: chain
+  steps:
+  - *id003
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__qiskit_ai
+- name: tket__qiskit_standard
+  type: chain
+  steps:
+  - *id003
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__qiskit_standard
+- name: tket__tket
+  type: chain
+  steps:
+  - *id003
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__tket
+- name: qiskit_ai__qiskit_ai__qiskit_ai
+  type: chain
+  steps:
+  - *id001
+  - *id001
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__qiskit_ai__qiskit_ai
+- name: qiskit_ai__qiskit_ai__qiskit_standard
+  type: chain
+  steps:
+  - *id001
+  - *id001
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__qiskit_ai__qiskit_standard
+- name: qiskit_ai__qiskit_ai__tket
+  type: chain
+  steps:
+  - *id001
+  - *id001
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__qiskit_ai__tket
+- name: qiskit_ai__qiskit_standard__qiskit_ai
+  type: chain
+  steps:
+  - *id001
+  - *id002
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__qiskit_standard__qiskit_ai
+- name: qiskit_ai__qiskit_standard__qiskit_standard
+  type: chain
+  steps:
+  - *id001
+  - *id002
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__qiskit_standard__qiskit_standard
+- name: qiskit_ai__qiskit_standard__tket
+  type: chain
+  steps:
+  - *id001
+  - *id002
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__qiskit_standard__tket
+- name: qiskit_ai__tket__qiskit_ai
+  type: chain
+  steps:
+  - *id001
+  - *id003
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__tket__qiskit_ai
+- name: qiskit_ai__tket__qiskit_standard
+  type: chain
+  steps:
+  - *id001
+  - *id003
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__tket__qiskit_standard
+- name: qiskit_ai__tket__tket
+  type: chain
+  steps:
+  - *id001
+  - *id003
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_ai__tket__tket
+- name: qiskit_standard__qiskit_ai__qiskit_ai
+  type: chain
+  steps:
+  - *id002
+  - *id001
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__qiskit_ai__qiskit_ai
+- name: qiskit_standard__qiskit_ai__qiskit_standard
+  type: chain
+  steps:
+  - *id002
+  - *id001
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__qiskit_ai__qiskit_standard
+- name: qiskit_standard__qiskit_ai__tket
+  type: chain
+  steps:
+  - *id002
+  - *id001
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__qiskit_ai__tket
+- name: qiskit_standard__qiskit_standard__qiskit_ai
+  type: chain
+  steps:
+  - *id002
+  - *id002
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__qiskit_standard__qiskit_ai
+- name: qiskit_standard__qiskit_standard__qiskit_standard
+  type: chain
+  steps:
+  - *id002
+  - *id002
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__qiskit_standard__qiskit_standard
+- name: qiskit_standard__qiskit_standard__tket
+  type: chain
+  steps:
+  - *id002
+  - *id002
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__qiskit_standard__tket
+- name: qiskit_standard__tket__qiskit_ai
+  type: chain
+  steps:
+  - *id002
+  - *id003
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__tket__qiskit_ai
+- name: qiskit_standard__tket__qiskit_standard
+  type: chain
+  steps:
+  - *id002
+  - *id003
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__tket__qiskit_standard
+- name: qiskit_standard__tket__tket
+  type: chain
+  steps:
+  - *id002
+  - *id003
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/qiskit_standard__tket__tket
+- name: tket__qiskit_ai__qiskit_ai
+  type: chain
+  steps:
+  - *id003
+  - *id001
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__qiskit_ai__qiskit_ai
+- name: tket__qiskit_ai__qiskit_standard
+  type: chain
+  steps:
+  - *id003
+  - *id001
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__qiskit_ai__qiskit_standard
+- name: tket__qiskit_ai__tket
+  type: chain
+  steps:
+  - *id003
+  - *id001
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__qiskit_ai__tket
+- name: tket__qiskit_standard__qiskit_ai
+  type: chain
+  steps:
+  - *id003
+  - *id002
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__qiskit_standard__qiskit_ai
+- name: tket__qiskit_standard__qiskit_standard
+  type: chain
+  steps:
+  - *id003
+  - *id002
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__qiskit_standard__qiskit_standard
+- name: tket__qiskit_standard__tket
+  type: chain
+  steps:
+  - *id003
+  - *id002
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__qiskit_standard__tket
+- name: tket__tket__qiskit_ai
+  type: chain
+  steps:
+  - *id003
+  - *id003
+  - *id001
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__tket__qiskit_ai
+- name: tket__tket__qiskit_standard
+  type: chain
+  steps:
+  - *id003
+  - *id003
+  - *id002
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__tket__qiskit_standard
+- name: tket__tket__tket
+  type: chain
+  steps:
+  - *id003
+  - *id003
+  - *id003
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/initial_test/optimize_only/reports/chains/tket__tket__tket
+metrics:
+- depth
+- two_qubit_gates
+- two_qubit_depth
+- total_gates

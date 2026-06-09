@@ -134,6 +134,10 @@ def _ring_coupling_map(num_qubits: int) -> CouplingMap:
     edges += [((idx + 1) % num_qubits, idx) for idx in range(num_qubits)]
     return CouplingMap(edges)
 
+def _fully_connected_coupling_map(n):
+    edges = [(i, j) for i in range(n) for j in range(n) if i != j]
+    return CouplingMap(edges)
+
 
 @dataclass(frozen=True)
 class QiskitAIRunnerConfig:
@@ -148,7 +152,18 @@ def transpile_with_qiskit_ai(
     config: QiskitAIRunnerConfig | None = None,
 ) -> list[TranspiledCircuit]:
     cfg = config or QiskitAIRunnerConfig()
-    coupling_map = cfg.coupling_map or _ring_coupling_map(circuit.num_qubits)
+
+    # Fully connected coupling map = no hardware connectivity restriction
+    coupling_map = cfg.coupling_map or _fully_connected_coupling_map(circuit.num_qubits)
+
+    # First convert to IBM/Qiskit basis without routing
+    circuit_ibm_basis = transpile(
+        circuit,
+        basis_gates=["id", "rz", "sx", "x", "cx"],
+        optimization_level=0,
+        coupling_map=None,
+        backend=None,
+    )
 
     collect_lfs = CollectLinearFunctions(
         do_commutative_analysis=True,
@@ -156,45 +171,48 @@ def transpile_with_qiskit_ai(
         max_block_size=2,
         collect_from_back=False,
     )
+
     ai_lf_synth = AILinearFunctionSynthesis(
         coupling_map=list(coupling_map.get_edges()),
         replace_only_if_better=True,
     )
 
     results: list[TranspiledCircuit] = []
-    sabre_pm = PassManager([SabreLayout(coupling_map=coupling_map), SabreSwap(coupling_map=coupling_map)])
-    routed_baseline = sabre_pm.run(circuit)
-    results.append(
-        TranspiledCircuit(
-            optimizer="qiskit_ai",
-            label="sabre_routed",
-            circuit=routed_baseline,
-            metrics=analyze_circuit(routed_baseline),
-            metadata={"variant": "sabre", "optimization_level": 0, "iteration": 0},
-        )
-    )
 
     for level in cfg.optimization_levels:
-        for iteration in range(cfg.iterations_per_level):
-            pass_manager = PassManager(
-                [
-                    SabreLayout(coupling_map=coupling_map),
-                    AIRouting(coupling_map=coupling_map, optimization_level=level, layout_mode=cfg.layout_mode),
-                    collect_lfs,
-                    ai_lf_synth,
-                    Optimize1qGates(),
-                ]
+        pass_manager = PassManager(
+            [
+                collect_lfs,
+                ai_lf_synth,
+                Optimize1qGates(),
+            ]
+        )
+
+        optimized = pass_manager.run(circuit_ibm_basis)
+
+        # Final cleanup back into the same basis
+        optimized = transpile(
+            optimized,
+            basis_gates=["id", "rz", "sx", "x", "cx"],
+            optimization_level=0,
+            coupling_map=None,
+            backend=None,
+        )
+
+        results.append(
+            TranspiledCircuit(
+                optimizer="qiskit_ai",
+                label=f"ai_synthesis_only",
+                circuit=optimized,
+                metrics=analyze_circuit(optimized),
+                metadata={
+                    "variant": "ai_synthesis_only",
+                    "optimization_level": level,
+                    "hardware_aware": False,
+                    "coupling_map": "fully_connected",
+                },
             )
-            optimized = pass_manager.run(circuit)
-            results.append(
-                TranspiledCircuit(
-                    optimizer="qiskit_ai",
-                    label=f"ai_level_{level}_iter_{iteration + 1}",
-                    circuit=optimized,
-                    metrics=analyze_circuit(optimized),
-                    metadata={"variant": "ai_transpiler", "optimization_level": level, "iteration": iteration + 1},
-                )
-            )
+        )
 
     return results
 
@@ -222,7 +240,8 @@ def transpile_with_qiskit_standard(
         optimized = transpile(
             circuit,
             basis_gates=basis_gates,
-            coupling_map=coupling_map,
+            coupling_map=None,
+            backend=None,
             optimization_level=level,
         )
         duration = time.perf_counter() - start_time

@@ -1,0 +1,1558 @@
+{
+  "metadata": {
+    "job_info": "fast_chain_sample",
+    "output_dir": "brute_force_chains/cheap_optimizers/initial_test/reports",
+    "num_results": 39
+  },
+  "results": [
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 31,
+        "two_qubit_gates": 52,
+        "two_qubit_depth": 56,
+        "total_gates": 60
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          1.0009477499406785
+        ],
+        "step_improvements": [
+          -85.71428571428571
+        ],
+        "total_duration_seconds": 1.0021034170640633
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai/step_0_qiskit_ai/fast_chain_sample_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard",
+      "metrics": {
+        "depth": 112,
+        "two_qubit_gates": 108,
+        "two_qubit_depth": 64,
+        "total_gates": 281
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.01857816695701331
+        ],
+        "step_improvements": [
+          -285.7142857142857
+        ],
+        "total_duration_seconds": 0.02002937498036772
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard/step_0_qiskit_standard/fast_chain_sample_qiskit_standard_step0_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket",
+      "optimizer": "chain",
+      "label": "chain_tket",
+      "metrics": {
+        "depth": 51,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 26,
+        "total_gates": 129
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          1.1446102920453995
+        ],
+        "step_improvements": [
+          -100.0
+        ],
+        "total_duration_seconds": 1.1457920420216396
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket/step_0_tket/fast_chain_sample_tket_step0_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_qiskit_ai",
+      "metrics": {
+        "depth": 31,
+        "two_qubit_gates": 51,
+        "two_qubit_depth": 51,
+        "total_gates": 59
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__qiskit_ai",
+        "num_steps": 2,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.28947850002441555,
+          0.12634508300106972
+        ],
+        "step_improvements": [
+          -82.14285714285714,
+          0.0
+        ],
+        "total_duration_seconds": 0.4182185420067981
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__qiskit_ai/step_1_qiskit_ai/fast_chain_sample_qiskit_ai__qiskit_ai_step1_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_qiskit_standard",
+      "metrics": {
+        "depth": 100,
+        "two_qubit_gates": 101,
+        "two_qubit_depth": 54,
+        "total_gates": 263
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__qiskit_standard",
+        "num_steps": 2,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.1589461670955643,
+          0.015332666924223304
+        ],
+        "step_improvements": [
+          -85.71428571428571,
+          -94.23076923076923
+        ],
+        "total_duration_seconds": 0.17846141604240984
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__qiskit_standard/step_1_qiskit_standard/fast_chain_sample_qiskit_ai__qiskit_standard_step1_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__tket",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_tket",
+      "metrics": {
+        "depth": 79,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 26,
+        "total_gates": 237
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__tket",
+        "num_steps": 2,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.1992009999230504,
+          1.1912332080537453
+        ],
+        "step_improvements": [
+          -85.71428571428571,
+          -7.6923076923076925
+        ],
+        "total_duration_seconds": 1.39333183306735
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__tket/step_1_tket/fast_chain_sample_qiskit_ai__tket_step1_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_qiskit_ai",
+      "metrics": {
+        "depth": 114,
+        "two_qubit_gates": 107,
+        "two_qubit_depth": 58,
+        "total_gates": 276
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__qiskit_ai",
+        "num_steps": 2,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.012676791986450553,
+          0.25422679109033197
+        ],
+        "step_improvements": [
+          -282.14285714285717,
+          0.0
+        ],
+        "total_duration_seconds": 0.2699547919910401
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__qiskit_ai/step_1_qiskit_ai/fast_chain_sample_qiskit_standard__qiskit_ai_step1_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_qiskit_standard",
+      "metrics": {
+        "depth": 111,
+        "two_qubit_gates": 108,
+        "two_qubit_depth": 64,
+        "total_gates": 281
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__qiskit_standard",
+        "num_steps": 2,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.012148375040851533,
+          0.007701541995629668
+        ],
+        "step_improvements": [
+          -285.7142857142857,
+          0.0
+        ],
+        "total_duration_seconds": 0.023072917014360428
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__qiskit_standard/step_1_qiskit_standard/fast_chain_sample_qiskit_standard__qiskit_standard_step1_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__tket",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_tket",
+      "metrics": {
+        "depth": 78,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 26,
+        "total_gates": 216
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__tket",
+        "num_steps": 2,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.011731708073057234,
+          1.18857120804023
+        ],
+        "step_improvements": [
+          -282.14285714285717,
+          47.66355140186916
+        ],
+        "total_duration_seconds": 1.2032371669774875
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__tket/step_1_tket/fast_chain_sample_qiskit_standard__tket_step1_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_tket_then_qiskit_ai",
+      "metrics": {
+        "depth": 80,
+        "two_qubit_gates": 80,
+        "two_qubit_depth": 70,
+        "total_gates": 153
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__qiskit_ai",
+        "num_steps": 2,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.9151251249713823,
+          0.21837912499904633
+        ],
+        "step_improvements": [
+          -100.0,
+          -42.857142857142854
+        ],
+        "total_duration_seconds": 1.1360952079994604
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__qiskit_ai/step_1_qiskit_ai/fast_chain_sample_tket__qiskit_ai_step1_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_tket_then_qiskit_standard",
+      "metrics": {
+        "depth": 110,
+        "two_qubit_gates": 107,
+        "two_qubit_depth": 58,
+        "total_gates": 259
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__qiskit_standard",
+        "num_steps": 2,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.9253990000579506,
+          0.01386212499346584
+        ],
+        "step_improvements": [
+          -100.0,
+          -91.07142857142857
+        ],
+        "total_duration_seconds": 0.9419590829638764
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__qiskit_standard/step_1_qiskit_standard/fast_chain_sample_tket__qiskit_standard_step1_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__tket",
+      "optimizer": "chain",
+      "label": "chain_tket_then_tket",
+      "metrics": {
+        "depth": 51,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 26,
+        "total_gates": 129
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__tket",
+        "num_steps": 2,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.9104481249814853,
+          0.9341078751021996
+        ],
+        "step_improvements": [
+          -100.0,
+          0.0
+        ],
+        "total_duration_seconds": 1.8468576250597835
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__tket/step_1_tket/fast_chain_sample_tket__tket_step1_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__qiskit_ai__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_qiskit_ai_then_qiskit_ai",
+      "metrics": {
+        "depth": 31,
+        "two_qubit_gates": 51,
+        "two_qubit_depth": 51,
+        "total_gates": 59
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__qiskit_ai__qiskit_ai",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.1443381670396775,
+          0.1194413750199601,
+          0.16599483299069107
+        ],
+        "step_improvements": [
+          -82.14285714285714,
+          0.0,
+          0.0
+        ],
+        "total_duration_seconds": 0.43323837500065565
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__qiskit_ai__qiskit_ai/step_2_qiskit_ai/fast_chain_sample_qiskit_ai__qiskit_ai__qiskit_ai_step2_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__qiskit_ai__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_qiskit_ai_then_qiskit_standard",
+      "metrics": {
+        "depth": 114,
+        "two_qubit_gates": 107,
+        "two_qubit_depth": 58,
+        "total_gates": 276
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__qiskit_ai__qiskit_standard",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.11935275001451373,
+          0.12463345797732472,
+          0.01076937501784414
+        ],
+        "step_improvements": [
+          -85.71428571428571,
+          0.0,
+          -105.76923076923077
+        ],
+        "total_duration_seconds": 0.25843633303884417
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__qiskit_ai__qiskit_standard/step_2_qiskit_standard/fast_chain_sample_qiskit_ai__qiskit_ai__qiskit_standard_step2_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__qiskit_ai__tket",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_qiskit_ai_then_tket",
+      "metrics": {
+        "depth": 91,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 34,
+        "total_gates": 205
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__qiskit_ai__tket",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.11975666601210833,
+          0.11934654205106199,
+          1.07085208396893
+        ],
+        "step_improvements": [
+          -82.14285714285714,
+          0.0,
+          -9.803921568627452
+        ],
+        "total_duration_seconds": 1.3137193750590086
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__qiskit_ai__tket/step_2_tket/fast_chain_sample_qiskit_ai__qiskit_ai__tket_step2_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__qiskit_standard__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_qiskit_standard_then_qiskit_ai",
+      "metrics": {
+        "depth": 114,
+        "two_qubit_gates": 107,
+        "two_qubit_depth": 58,
+        "total_gates": 276
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__qiskit_standard__qiskit_ai",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.1301895419601351,
+          0.011960875010117888,
+          0.2458591250469908
+        ],
+        "step_improvements": [
+          -82.14285714285714,
+          -109.80392156862744,
+          0.0
+        ],
+        "total_duration_seconds": 0.3922838330036029
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__qiskit_standard__qiskit_ai/step_2_qiskit_ai/fast_chain_sample_qiskit_ai__qiskit_standard__qiskit_ai_step2_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__qiskit_standard__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_qiskit_standard_then_qiskit_standard",
+      "metrics": {
+        "depth": 112,
+        "two_qubit_gates": 108,
+        "two_qubit_depth": 64,
+        "total_gates": 283
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__qiskit_standard__qiskit_standard",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.12368808302562684,
+          0.010834375047124922,
+          0.006266750046052039
+        ],
+        "step_improvements": [
+          -82.14285714285714,
+          -111.76470588235294,
+          0.0
+        ],
+        "total_duration_seconds": 0.1449792089406401
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__qiskit_standard__qiskit_standard/step_2_qiskit_standard/fast_chain_sample_qiskit_ai__qiskit_standard__qiskit_standard_step2_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__qiskit_standard__tket",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_qiskit_standard_then_tket",
+      "metrics": {
+        "depth": 89,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 30,
+        "total_gates": 227
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__qiskit_standard__tket",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.12257887504529208,
+          0.01030608406290412,
+          1.1199223749572411
+        ],
+        "step_improvements": [
+          -82.14285714285714,
+          -100.0,
+          45.09803921568628
+        ],
+        "total_duration_seconds": 1.2569495420902967
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__qiskit_standard__tket/step_2_tket/fast_chain_sample_qiskit_ai__qiskit_standard__tket_step2_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__tket__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_tket_then_qiskit_ai",
+      "metrics": {
+        "depth": 103,
+        "two_qubit_gates": 79,
+        "two_qubit_depth": 68,
+        "total_gates": 255
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__tket__qiskit_ai",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.13322579103987664,
+          1.0616466250503436,
+          0.2319142079213634
+        ],
+        "step_improvements": [
+          -85.71428571428571,
+          -7.6923076923076925,
+          -41.07142857142857
+        ],
+        "total_duration_seconds": 1.431439249892719
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__tket__qiskit_ai/step_2_qiskit_ai/fast_chain_sample_qiskit_ai__tket__qiskit_ai_step2_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__tket__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_tket_then_qiskit_standard",
+      "metrics": {
+        "depth": 142,
+        "two_qubit_gates": 103,
+        "two_qubit_depth": 68,
+        "total_gates": 291
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__tket__qiskit_standard",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.17837420909199864,
+          1.091374957934022,
+          0.01199704094324261
+        ],
+        "step_improvements": [
+          -82.14285714285714,
+          -9.803921568627452,
+          -83.92857142857143
+        ],
+        "total_duration_seconds": 1.2859869169769809
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__tket__qiskit_standard/step_2_qiskit_standard/fast_chain_sample_qiskit_ai__tket__qiskit_standard_step2_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai__tket__tket",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai_then_tket_then_tket",
+      "metrics": {
+        "depth": 77,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 26,
+        "total_gates": 210
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_ai__tket__tket",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.12467816600110382,
+          1.0370076660765335,
+          0.9850839580176398
+        ],
+        "step_improvements": [
+          -82.14285714285714,
+          -9.803921568627452,
+          0.0
+        ],
+        "total_duration_seconds": 2.150858207955025
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_ai__tket__tket/step_2_tket/fast_chain_sample_qiskit_ai__tket__tket_step2_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__qiskit_ai__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_qiskit_ai_then_qiskit_ai",
+      "metrics": {
+        "depth": 114,
+        "two_qubit_gates": 107,
+        "two_qubit_depth": 58,
+        "total_gates": 276
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__qiskit_ai__qiskit_ai",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.01249375008046627,
+          0.23974025005009025,
+          0.2401550409849733
+        ],
+        "step_improvements": [
+          -282.14285714285717,
+          0.0,
+          0.0
+        ],
+        "total_duration_seconds": 0.4968694589333609
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__qiskit_ai__qiskit_ai/step_2_qiskit_ai/fast_chain_sample_qiskit_standard__qiskit_ai__qiskit_ai_step2_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__qiskit_ai__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_qiskit_ai_then_qiskit_standard",
+      "metrics": {
+        "depth": 114,
+        "two_qubit_gates": 107,
+        "two_qubit_depth": 58,
+        "total_gates": 276
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__qiskit_ai__qiskit_standard",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.014252417022362351,
+          0.26826279098168015,
+          0.04108287498820573
+        ],
+        "step_improvements": [
+          -282.14285714285717,
+          0.0,
+          0.0
+        ],
+        "total_duration_seconds": 0.3292059589875862
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__qiskit_ai__qiskit_standard/step_2_qiskit_standard/fast_chain_sample_qiskit_standard__qiskit_ai__qiskit_standard_step2_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__qiskit_ai__tket",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_qiskit_ai_then_tket",
+      "metrics": {
+        "depth": 78,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 26,
+        "total_gates": 216
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__qiskit_ai__tket",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.016520416014827788,
+          0.2820687920320779,
+          1.082637375104241
+        ],
+        "step_improvements": [
+          -282.14285714285717,
+          0.0,
+          47.66355140186916
+        ],
+        "total_duration_seconds": 1.3856945420848206
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__qiskit_ai__tket/step_2_tket/fast_chain_sample_qiskit_standard__qiskit_ai__tket_step2_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__qiskit_standard__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_qiskit_standard_then_qiskit_ai",
+      "metrics": {
+        "depth": 114,
+        "two_qubit_gates": 107,
+        "two_qubit_depth": 58,
+        "total_gates": 276
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__qiskit_standard__qiskit_ai",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.01299166597891599,
+          0.006201707990840077,
+          0.23699641693383455
+        ],
+        "step_improvements": [
+          -282.14285714285717,
+          0.0,
+          0.0
+        ],
+        "total_duration_seconds": 0.2604919580044225
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__qiskit_standard__qiskit_ai/step_2_qiskit_ai/fast_chain_sample_qiskit_standard__qiskit_standard__qiskit_ai_step2_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__qiskit_standard__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_qiskit_standard_then_qiskit_standard",
+      "metrics": {
+        "depth": 114,
+        "two_qubit_gates": 107,
+        "two_qubit_depth": 58,
+        "total_gates": 276
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__qiskit_standard__qiskit_standard",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.010567332967184484,
+          0.0056856670416891575,
+          0.005543834064155817
+        ],
+        "step_improvements": [
+          -282.14285714285717,
+          0.0,
+          0.0
+        ],
+        "total_duration_seconds": 0.02578020899090916
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__qiskit_standard__qiskit_standard/step_2_qiskit_standard/fast_chain_sample_qiskit_standard__qiskit_standard__qiskit_standard_step2_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__qiskit_standard__tket",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_qiskit_standard_then_tket",
+      "metrics": {
+        "depth": 80,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 27,
+        "total_gates": 219
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__qiskit_standard__tket",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.00963645800948143,
+          0.0066405420657247305,
+          1.1159580419771373
+        ],
+        "step_improvements": [
+          -271.42857142857144,
+          0.0,
+          46.15384615384615
+        ],
+        "total_duration_seconds": 1.1365324170328677
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__qiskit_standard__tket/step_2_tket/fast_chain_sample_qiskit_standard__qiskit_standard__tket_step2_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__tket__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_tket_then_qiskit_ai",
+      "metrics": {
+        "depth": 105,
+        "two_qubit_gates": 81,
+        "two_qubit_depth": 69,
+        "total_gates": 250
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__tket__qiskit_ai",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.013044374994933605,
+          1.1139098330168054,
+          0.38417245890013874
+        ],
+        "step_improvements": [
+          -260.7142857142857,
+          44.554455445544555,
+          -44.642857142857146
+        ],
+        "total_duration_seconds": 1.5160739999264479
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__tket__qiskit_ai/step_2_qiskit_ai/fast_chain_sample_qiskit_standard__tket__qiskit_ai_step2_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__tket__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_tket_then_qiskit_standard",
+      "metrics": {
+        "depth": 117,
+        "two_qubit_gates": 111,
+        "two_qubit_depth": 57,
+        "total_gates": 312
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__tket__qiskit_standard",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.012950749951414764,
+          1.164168042014353,
+          0.011969249928370118
+        ],
+        "step_improvements": [
+          -260.7142857142857,
+          44.554455445544555,
+          -98.21428571428571
+        ],
+        "total_duration_seconds": 1.1941421669907868
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__tket__qiskit_standard/step_2_qiskit_standard/fast_chain_sample_qiskit_standard__tket__qiskit_standard_step2_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_standard__tket__tket",
+      "optimizer": "chain",
+      "label": "chain_qiskit_standard_then_tket_then_tket",
+      "metrics": {
+        "depth": 74,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 26,
+        "total_gates": 209
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_qiskit_standard__tket__tket",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.01081895804964006,
+          1.0631225829711184,
+          0.9918085000244901
+        ],
+        "step_improvements": [
+          -278.57142857142856,
+          47.16981132075472,
+          0.0
+        ],
+        "total_duration_seconds": 2.070168000063859
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/qiskit_standard__tket__tket/step_2_tket/fast_chain_sample_qiskit_standard__tket__tket_step2_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__qiskit_ai__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_tket_then_qiskit_ai_then_qiskit_ai",
+      "metrics": {
+        "depth": 83,
+        "two_qubit_gates": 79,
+        "two_qubit_depth": 68,
+        "total_gates": 152
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__qiskit_ai__qiskit_ai",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.8972633749945089,
+          0.2148858750006184,
+          0.21693733392748982
+        ],
+        "step_improvements": [
+          -100.0,
+          -41.07142857142857,
+          0.0
+        ],
+        "total_duration_seconds": 1.3331390420207754
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__qiskit_ai__qiskit_ai/step_2_qiskit_ai/fast_chain_sample_tket__qiskit_ai__qiskit_ai_step2_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__qiskit_ai__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_tket_then_qiskit_ai_then_qiskit_standard",
+      "metrics": {
+        "depth": 112,
+        "two_qubit_gates": 105,
+        "two_qubit_depth": 56,
+        "total_gates": 266
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__qiskit_ai__qiskit_standard",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.9808329170336947,
+          0.21364529198035598,
+          0.010279749985784292
+        ],
+        "step_improvements": [
+          -100.0,
+          -41.07142857142857,
+          -32.91139240506329
+        ],
+        "total_duration_seconds": 1.208829417009838
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__qiskit_ai__qiskit_standard/step_2_qiskit_standard/fast_chain_sample_tket__qiskit_ai__qiskit_standard_step2_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__qiskit_ai__tket",
+      "optimizer": "chain",
+      "label": "chain_tket_then_qiskit_ai_then_tket",
+      "metrics": {
+        "depth": 77,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 26,
+        "total_gates": 215
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__qiskit_ai__tket",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.8897972910199314,
+          0.2267156249145046,
+          1.0322160000214353
+        ],
+        "step_improvements": [
+          -100.0,
+          -41.07142857142857,
+          29.11392405063291
+        ],
+        "total_duration_seconds": 2.1531972920056432
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__qiskit_ai__tket/step_2_tket/fast_chain_sample_tket__qiskit_ai__tket_step2_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__qiskit_standard__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_tket_then_qiskit_standard_then_qiskit_ai",
+      "metrics": {
+        "depth": 99,
+        "two_qubit_gates": 101,
+        "two_qubit_depth": 54,
+        "total_gates": 250
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__qiskit_standard__qiskit_ai",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.8781815420370549,
+          0.011005292064510286,
+          0.22068374999798834
+        ],
+        "step_improvements": [
+          -100.0,
+          -80.35714285714286,
+          0.0
+        ],
+        "total_duration_seconds": 1.1138152920175344
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__qiskit_standard__qiskit_ai/step_2_qiskit_ai/fast_chain_sample_tket__qiskit_standard__qiskit_ai_step2_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__qiskit_standard__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_tket_then_qiskit_standard_then_qiskit_standard",
+      "metrics": {
+        "depth": 110,
+        "two_qubit_gates": 108,
+        "two_qubit_depth": 64,
+        "total_gates": 268
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__qiskit_standard__qiskit_standard",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.9069115410093218,
+          0.012039749999530613,
+          0.005974250030703843
+        ],
+        "step_improvements": [
+          -100.0,
+          -92.85714285714286,
+          0.0
+        ],
+        "total_duration_seconds": 0.9288526669843122
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__qiskit_standard__qiskit_standard/step_2_qiskit_standard/fast_chain_sample_tket__qiskit_standard__qiskit_standard_step2_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__qiskit_standard__tket",
+      "optimizer": "chain",
+      "label": "chain_tket_then_qiskit_standard_then_tket",
+      "metrics": {
+        "depth": 82,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 26,
+        "total_gates": 223
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__qiskit_standard__tket",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.9181860840180889,
+          0.012831083033233881,
+          1.0481018330901861
+        ],
+        "step_improvements": [
+          -100.0,
+          -91.07142857142857,
+          47.66355140186916
+        ],
+        "total_duration_seconds": 1.9834563750773668
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__qiskit_standard__tket/step_2_tket/fast_chain_sample_tket__qiskit_standard__tket_step2_tket.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__tket__qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_tket_then_tket_then_qiskit_ai",
+      "metrics": {
+        "depth": 80,
+        "two_qubit_gates": 79,
+        "two_qubit_depth": 66,
+        "total_gates": 152
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__tket__qiskit_ai",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.9176654580514878,
+          0.8933447080198675,
+          0.22820104204583913
+        ],
+        "step_improvements": [
+          -100.0,
+          0.0,
+          -41.07142857142857
+        ],
+        "total_duration_seconds": 2.0427040830254555
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__tket__qiskit_ai/step_2_qiskit_ai/fast_chain_sample_tket__tket__qiskit_ai_step2_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__tket__qiskit_standard",
+      "optimizer": "chain",
+      "label": "chain_tket_then_tket_then_qiskit_standard",
+      "metrics": {
+        "depth": 111,
+        "two_qubit_gates": 107,
+        "two_qubit_depth": 58,
+        "total_gates": 259
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__tket__qiskit_standard",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "qiskit_standard",
+            "runner_type": "qiskit_standard"
+          }
+        ],
+        "step_durations": [
+          0.8951402909588069,
+          0.9314363750163466,
+          0.014167957939207554
+        ],
+        "step_improvements": [
+          -100.0,
+          0.0,
+          -91.07142857142857
+        ],
+        "total_duration_seconds": 1.844735583057627
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__tket__qiskit_standard/step_2_qiskit_standard/fast_chain_sample_tket__tket__qiskit_standard_step2_qiskit_standard.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "tket__tket__tket",
+      "optimizer": "chain",
+      "label": "chain_tket_then_tket_then_tket",
+      "metrics": {
+        "depth": 51,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 26,
+        "total_gates": 129
+      },
+      "metadata": {
+        "chain_name": "fast_chain_sample_tket__tket__tket",
+        "num_steps": 3,
+        "steps": [
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          },
+          {
+            "name": "tket",
+            "runner_type": "tket"
+          }
+        ],
+        "step_durations": [
+          0.8760927920229733,
+          0.9382089159917086,
+          0.9143174160271883
+        ],
+        "step_improvements": [
+          -100.0,
+          0.0,
+          0.0
+        ],
+        "total_duration_seconds": 2.7320512499427423
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/initial_test/reports/chains/tket__tket__tket/step_2_tket/fast_chain_sample_tket__tket__tket_step2_tket.qasm"
+    }
+  ],
+  "failures": []
+}
