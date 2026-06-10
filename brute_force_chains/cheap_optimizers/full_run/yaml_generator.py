@@ -1,6 +1,7 @@
 from itertools import product
 import yaml
 import pandas as pd
+import copy
 
 optimizers = {
     "qiskit_ai": {
@@ -21,51 +22,66 @@ optimizers = {
         "gate_set": "IBMN",
     },
 }
+
 repo_root = "/Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration"
+base_output_dir = "brute_force_chains/cheap_optimizers/full_run/two_opt"
+
 runners = []
 
-for chain_len in range(1, 4):
+for chain_len in range(1, 2):
     for chain in product(optimizers.keys(), repeat=chain_len):
+        chain_name = "__".join(chain)
         runners.append({
-            "name": "__".join(chain),
+            "name": chain_name,
             "type": "chain",
-            "steps": [optimizers[opt] for opt in chain],
+            "steps": [copy.deepcopy(optimizers[opt]) for opt in chain],
             "save_intermediates": True,
-            "output_dir": f"brute_force_chains/cheap_optimizers/initial_test/reports/chains/{'__'.join(chain)}",
+            "output_dir": f"{base_output_dir}/reports/chains/{chain_name}",
         })
 
 circuits = []
-circuit_df = pd.read_csv("/Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/dataset_analysis/circuits.csv")
-local = circuit_df[circuit_df["source"] == "local"]
-unique_paths = local["qasm_path"].unique()
-for path in unique_paths:
-    name = path.split("/")[-1].split(".")[0]
+circuit_df = pd.read_csv(
+    f"{repo_root}/brute_force_chains/cheap_optimizers/full_run/cheap_single_opts.csv"
+)
+
+for _, row in circuit_df.iterrows():
+    path = row["artifact_path"]
+    name = row["opt_chain"]
+
     circuits.append({
         "name": name,
-        "path": path,
+        "path": f"{repo_root}/{path}",
         "gate_set": "IBMN",
         "tags": ["experiment", name],
     })
 
+# Split into two batches
+mid = len(circuits) // 2
+batches = [
+    ("batch_1", circuits[:mid]),
+    ("batch_2", circuits[mid:]),
+]
 
+for batch_name, batch_circuits in batches:
+    output_dir = f"{base_output_dir}/{batch_name}/reports"
 
-config = {
-    "metadata": {
-        "description": "Sample chain test using qiskit_ai, qiskit_standard, and tket only.",
-        "job_info": "fast_chain_sample",
-        "default_output_dir": "brute_force_chains/cheap_optimizers/initial_test/reports/",
-    },
-    "circuits": [
-        {
-            "name": "qft_8",
-            "path": f"{repo_root}/benchmarks/ai_transpile/qasm/qft_8.qasm",
-            "gate_set": "IBMN",
-            "tags": ["sample", "qft"],
-        }
-    ],
-    "runners": runners,
-    "metrics": ["depth", "two_qubit_gates", "two_qubit_depth", "total_gates"],
-}
+    config = {
+        "metadata": {
+            "description": "Second optimizer batch test using qiskit_ai, qiskit_standard, and tket only.",
+            "job_info": f"cheap_2_opt_{batch_name}",
+            "default_output_dir": f"{repo_root}/{output_dir}",
+        },
+        "circuits": batch_circuits,
+        "runners": runners,
+        "metrics": ["depth", "two_qubit_gates", "two_qubit_depth", "total_gates"],
+    }
 
-with open("cheap_optimizer_test.yaml", "w") as f:
-    yaml.dump(config, f, sort_keys=False)
+    yaml_path = f"cheap_second_opt_{batch_name}.yaml"
+
+    with open(yaml_path, "w") as f:
+        yaml.dump(config, f, sort_keys=False)
+
+    print(f"Wrote {yaml_path}")
+    print(f"  Circuits: {len(batch_circuits)}")
+    print(f"  Runners: {len(runners)}")
+    print(f"  Num chains: {len(batch_circuits) * len(runners)}")

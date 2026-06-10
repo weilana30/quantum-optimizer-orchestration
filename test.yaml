@@ -1,0 +1,22 @@
+metadata:
+  job_info: hwb10_qiskit_ai_test
+  default_output_dir: test_outputs
+  runner_timeout_seconds: 30
+
+circuits:
+  - name: hwb10
+    path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/feynman/hwb10.qasm
+    gate_set: IBMN
+
+runners:
+  - name: qiskit_ai
+    type: qiskit_ai
+    optimization_levels:
+      - 1
+    iterations_per_level: 1
+    layout_mode: optimize
+
+metrics:
+  - depth
+  - two_qubit_gates
+  - total_gates

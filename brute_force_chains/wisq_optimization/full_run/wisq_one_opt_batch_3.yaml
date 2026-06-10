@@ -1,0 +1,256 @@
+metadata:
+  description: One-optimizer WISQ test using wisq_rules and wisq_bqskit only.
+  job_info: cheap_1_opt_wisq_batch_3
+  default_output_dir: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_3/reports/
+  runner_timeout_seconds: 300
+circuits:
+- name: qft_N011
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qft/qft_N011.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_N011
+- name: qft_N012
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qft/qft_N012.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_N012
+- name: qft_N013
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qft/qft_N013.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_N013
+- name: qft_N014
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qft/qft_N014.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_N014
+- name: qft_N015
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qft/qft_N015.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_N015
+- name: qft_N016
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qft/qft_N016.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_N016
+- name: qft_N017
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qft/qft_N017.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_N017
+- name: qft_N018
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qft/qft_N018.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_N018
+- name: qft_N019
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qft/qft_N019.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_N019
+- name: qft_N020
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qft/qft_N020.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_N020
+- name: qv_N002_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N002_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N002_12345
+- name: qv_N003_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N003_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N003_12345
+- name: qv_N004_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N004_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N004_12345
+- name: qv_N005_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N005_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N005_12345
+- name: qv_N006_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N006_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N006_12345
+- name: qv_N007_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N007_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N007_12345
+- name: qv_N008_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N008_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N008_12345
+- name: qv_N009_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N009_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N009_12345
+- name: qv_N010_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N010_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N010_12345
+- name: qv_N011_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N011_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N011_12345
+- name: qv_N012_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N012_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N012_12345
+- name: qv_N013_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N013_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N013_12345
+- name: qv_N014_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N014_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N014_12345
+- name: qv_N015_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N015_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N015_12345
+- name: qv_N016_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N016_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N016_12345
+- name: qv_N017_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N017_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N017_12345
+- name: qv_N018_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N018_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N018_12345
+- name: qv_N019_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N019_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N019_12345
+- name: qv_N020_12345
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/qv/qv_N020_12345.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qv_N020_12345
+- name: real_amplitudes_12
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/real_amplitudes_12.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - real_amplitudes_12
+- name: real_amplitudes_12_r3
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/real_amplitudes_12_r3.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - real_amplitudes_12_r3
+- name: real_amplitudes_16_r2
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/real_amplitudes_16_r2.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - real_amplitudes_16_r2
+- name: real_amplitudes_8
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/real_amplitudes_8.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - real_amplitudes_8
+- name: real_amplitudes_8_r2
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/real_amplitudes_8_r2.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - real_amplitudes_8_r2
+- name: square_heisenberg_N16
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/square-heisenberg/square_heisenberg_N16.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - square_heisenberg_N16
+- name: square_heisenberg_N4
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/square-heisenberg/square_heisenberg_N4.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - square_heisenberg_N4
+- name: square_heisenberg_N9
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/benchmarks/ai_transpile/qasm/square-heisenberg/square_heisenberg_N9.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - square_heisenberg_N9
+runners:
+- name: wisq_rules
+  type: chain
+  steps:
+  - type: wisq
+    name: wisq_rules
+    target_gateset: IBMN
+    optimization_objective: TWO_Q
+    approx_epsilon: 0
+    opt_timeout: 180
+  save_intermediates: true
+  output_dir: brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_3/reports/chains/wisq_rules
+- name: wisq_bqskit
+  type: chain
+  steps:
+  - type: wisq
+    name: wisq_bqskit
+    target_gateset: IBMN
+    optimization_objective: TWO_Q
+    approx_epsilon: 1.0e-10
+    opt_timeout: 180
+  save_intermediates: true
+  output_dir: brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_3/reports/chains/wisq_bqskit
+metrics:
+- depth
+- two_qubit_gates
+- two_qubit_depth
+- total_gates

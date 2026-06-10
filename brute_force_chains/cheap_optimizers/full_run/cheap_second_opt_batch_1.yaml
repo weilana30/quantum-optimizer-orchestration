@@ -1,0 +1,1006 @@
+metadata:
+  description: Second optimizer batch test using qiskit_ai, qiskit_standard, and tket
+    only.
+  job_info: cheap_2_opt_batch_1
+  default_output_dir: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/two_opt/batch_1/reports
+circuits:
+- name: efficient_su2_10_r2__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/efficient_su2_10_r2/step_0_qiskit_ai/cheap_1_opt_efficient_su2_10_r2_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_10_r2__qiskit_ai
+- name: efficient_su2_10_r2__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/efficient_su2_10_r2/step_0_qiskit_standard/cheap_1_opt_efficient_su2_10_r2_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_10_r2__qiskit_standard
+- name: efficient_su2_10_r2__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/efficient_su2_10_r2/step_0_tket/cheap_1_opt_efficient_su2_10_r2_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_10_r2__tket
+- name: efficient_su2_12__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/efficient_su2_12/step_0_qiskit_ai/cheap_1_opt_efficient_su2_12_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_12__qiskit_ai
+- name: efficient_su2_12__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/efficient_su2_12/step_0_qiskit_standard/cheap_1_opt_efficient_su2_12_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_12__qiskit_standard
+- name: efficient_su2_12__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/efficient_su2_12/step_0_tket/cheap_1_opt_efficient_su2_12_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_12__tket
+- name: efficient_su2_12_r2__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/efficient_su2_12_r2/step_0_qiskit_ai/cheap_1_opt_efficient_su2_12_r2_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_12_r2__qiskit_ai
+- name: efficient_su2_12_r2__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/efficient_su2_12_r2/step_0_qiskit_standard/cheap_1_opt_efficient_su2_12_r2_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_12_r2__qiskit_standard
+- name: efficient_su2_12_r2__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/efficient_su2_12_r2/step_0_tket/cheap_1_opt_efficient_su2_12_r2_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_12_r2__tket
+- name: efficient_su2_16__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/efficient_su2_16/step_0_qiskit_ai/cheap_1_opt_efficient_su2_16_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_16__qiskit_ai
+- name: efficient_su2_16__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/efficient_su2_16/step_0_qiskit_standard/cheap_1_opt_efficient_su2_16_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_16__qiskit_standard
+- name: efficient_su2_16__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/efficient_su2_16/step_0_tket/cheap_1_opt_efficient_su2_16_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_16__tket
+- name: efficient_su2_8__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/efficient_su2_8/step_0_qiskit_ai/cheap_1_opt_efficient_su2_8_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_8__qiskit_ai
+- name: efficient_su2_8__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/efficient_su2_8/step_0_qiskit_standard/cheap_1_opt_efficient_su2_8_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_8__qiskit_standard
+- name: efficient_su2_8__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/efficient_su2_8/step_0_tket/cheap_1_opt_efficient_su2_8_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - efficient_su2_8__tket
+- name: W-state__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/W-state/step_0_qiskit_ai/cheap_1_opt_W-state_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - W-state__qiskit_ai
+- name: W-state__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/W-state/step_0_qiskit_standard/cheap_1_opt_W-state_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - W-state__qiskit_standard
+- name: W-state__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/W-state/step_0_tket/cheap_1_opt_W-state_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - W-state__tket
+- name: adder__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/adder/step_0_qiskit_ai/cheap_1_opt_adder_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - adder__qiskit_ai
+- name: adder__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/adder/step_0_qiskit_standard/cheap_1_opt_adder_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - adder__qiskit_standard
+- name: adder__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/adder/step_0_tket/cheap_1_opt_adder_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - adder__tket
+- name: barenco_tof_10__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/barenco_tof_10/step_0_qiskit_ai/cheap_1_opt_barenco_tof_10_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_10__qiskit_ai
+- name: barenco_tof_10__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/barenco_tof_10/step_0_qiskit_standard/cheap_1_opt_barenco_tof_10_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_10__qiskit_standard
+- name: barenco_tof_10__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/barenco_tof_10/step_0_tket/cheap_1_opt_barenco_tof_10_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_10__tket
+- name: barenco_tof_3__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/barenco_tof_3/step_0_qiskit_ai/cheap_1_opt_barenco_tof_3_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_3__qiskit_ai
+- name: barenco_tof_3__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/barenco_tof_3/step_0_qiskit_standard/cheap_1_opt_barenco_tof_3_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_3__qiskit_standard
+- name: barenco_tof_3__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/barenco_tof_3/step_0_tket/cheap_1_opt_barenco_tof_3_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_3__tket
+- name: barenco_tof_4__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/barenco_tof_4/step_0_qiskit_ai/cheap_1_opt_barenco_tof_4_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_4__qiskit_ai
+- name: barenco_tof_4__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/barenco_tof_4/step_0_qiskit_standard/cheap_1_opt_barenco_tof_4_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_4__qiskit_standard
+- name: barenco_tof_4__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/barenco_tof_4/step_0_tket/cheap_1_opt_barenco_tof_4_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_4__tket
+- name: barenco_tof_5__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/barenco_tof_5/step_0_qiskit_ai/cheap_1_opt_barenco_tof_5_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_5__qiskit_ai
+- name: barenco_tof_5__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/barenco_tof_5/step_0_qiskit_standard/cheap_1_opt_barenco_tof_5_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_5__qiskit_standard
+- name: barenco_tof_5__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/barenco_tof_5/step_0_tket/cheap_1_opt_barenco_tof_5_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - barenco_tof_5__tket
+- name: bigadder__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/bigadder/step_0_qiskit_ai/cheap_1_opt_bigadder_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - bigadder__qiskit_ai
+- name: bigadder__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/bigadder/step_0_qiskit_standard/cheap_1_opt_bigadder_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - bigadder__qiskit_standard
+- name: bigadder__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/bigadder/step_0_tket/cheap_1_opt_bigadder_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - bigadder__tket
+- name: csla_mux_3__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/csla_mux_3/step_0_qiskit_ai/cheap_1_opt_csla_mux_3_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - csla_mux_3__qiskit_ai
+- name: csla_mux_3__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/csla_mux_3/step_0_qiskit_standard/cheap_1_opt_csla_mux_3_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - csla_mux_3__qiskit_standard
+- name: csla_mux_3__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/csla_mux_3/step_0_tket/cheap_1_opt_csla_mux_3_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - csla_mux_3__tket
+- name: gf2^4_mult__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/gf2^4_mult/step_0_qiskit_ai/cheap_1_opt_gf2^4_mult_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - gf2^4_mult__qiskit_ai
+- name: gf2^4_mult__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/gf2^4_mult/step_0_qiskit_standard/cheap_1_opt_gf2^4_mult_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - gf2^4_mult__qiskit_standard
+- name: gf2^4_mult__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/gf2^4_mult/step_0_tket/cheap_1_opt_gf2^4_mult_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - gf2^4_mult__tket
+- name: gf2^5_mult__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/gf2^5_mult/step_0_qiskit_ai/cheap_1_opt_gf2^5_mult_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - gf2^5_mult__qiskit_ai
+- name: gf2^5_mult__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/gf2^5_mult/step_0_qiskit_standard/cheap_1_opt_gf2^5_mult_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - gf2^5_mult__qiskit_standard
+- name: gf2^5_mult__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/gf2^5_mult/step_0_tket/cheap_1_opt_gf2^5_mult_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - gf2^5_mult__tket
+- name: gf2^6_mult__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/gf2^6_mult/step_0_qiskit_ai/cheap_1_opt_gf2^6_mult_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - gf2^6_mult__qiskit_ai
+- name: gf2^6_mult__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/gf2^6_mult/step_0_qiskit_standard/cheap_1_opt_gf2^6_mult_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - gf2^6_mult__qiskit_standard
+- name: gf2^6_mult__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/gf2^6_mult/step_0_tket/cheap_1_opt_gf2^6_mult_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - gf2^6_mult__tket
+- name: grover_5__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/grover_5/step_0_qiskit_ai/cheap_1_opt_grover_5_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - grover_5__qiskit_ai
+- name: grover_5__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/grover_5/step_0_qiskit_standard/cheap_1_opt_grover_5_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - grover_5__qiskit_standard
+- name: grover_5__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/grover_5/step_0_tket/cheap_1_opt_grover_5_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - grover_5__tket
+- name: ham15-high__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/ham15-high/step_0_qiskit_ai/cheap_1_opt_ham15-high_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - ham15-high__qiskit_ai
+- name: ham15-high__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/ham15-high/step_0_qiskit_standard/cheap_1_opt_ham15-high_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - ham15-high__qiskit_standard
+- name: ham15-high__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/ham15-high/step_0_tket/cheap_1_opt_ham15-high_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - ham15-high__tket
+- name: ham15-low__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/ham15-low/step_0_qiskit_ai/cheap_1_opt_ham15-low_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - ham15-low__qiskit_ai
+- name: ham15-low__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/ham15-low/step_0_qiskit_standard/cheap_1_opt_ham15-low_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - ham15-low__qiskit_standard
+- name: ham15-low__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/ham15-low/step_0_tket/cheap_1_opt_ham15-low_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - ham15-low__tket
+- name: ham15-med__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/ham15-med/step_0_qiskit_ai/cheap_1_opt_ham15-med_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - ham15-med__qiskit_ai
+- name: ham15-med__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/ham15-med/step_0_qiskit_standard/cheap_1_opt_ham15-med_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - ham15-med__qiskit_standard
+- name: ham15-med__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/ham15-med/step_0_tket/cheap_1_opt_ham15-med_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - ham15-med__tket
+- name: hwb10__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/hwb10/step_0_qiskit_standard/cheap_1_opt_hwb10_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - hwb10__qiskit_standard
+- name: hwb10__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/hwb10/step_0_tket/cheap_1_opt_hwb10_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - hwb10__tket
+- name: hwb11__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/hwb11/step_0_qiskit_standard/cheap_1_opt_hwb11_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - hwb11__qiskit_standard
+- name: hwb12__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/hwb12/step_0_qiskit_standard/cheap_1_opt_hwb12_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - hwb12__qiskit_standard
+- name: hwb6__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/hwb6/step_0_qiskit_ai/cheap_1_opt_hwb6_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - hwb6__qiskit_ai
+- name: hwb6__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/hwb6/step_0_qiskit_standard/cheap_1_opt_hwb6_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - hwb6__qiskit_standard
+- name: hwb6__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/hwb6/step_0_tket/cheap_1_opt_hwb6_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - hwb6__tket
+- name: hwb8__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/hwb8/step_0_qiskit_standard/cheap_1_opt_hwb8_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - hwb8__qiskit_standard
+- name: hwb8__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/hwb8/step_0_tket/cheap_1_opt_hwb8_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - hwb8__tket
+- name: inverseqft1__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/inverseqft1/step_0_qiskit_ai/cheap_1_opt_inverseqft1_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - inverseqft1__qiskit_ai
+- name: inverseqft1__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/inverseqft1/step_0_qiskit_standard/cheap_1_opt_inverseqft1_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - inverseqft1__qiskit_standard
+- name: inverseqft1__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/inverseqft1/step_0_tket/cheap_1_opt_inverseqft1_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - inverseqft1__tket
+- name: inverseqft2__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/inverseqft2/step_0_qiskit_ai/cheap_1_opt_inverseqft2_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - inverseqft2__qiskit_ai
+- name: inverseqft2__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/inverseqft2/step_0_qiskit_standard/cheap_1_opt_inverseqft2_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - inverseqft2__qiskit_standard
+- name: inverseqft2__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/inverseqft2/step_0_tket/cheap_1_opt_inverseqft2_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - inverseqft2__tket
+- name: mod5_4__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/mod5_4/step_0_qiskit_ai/cheap_1_opt_mod5_4_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - mod5_4__qiskit_ai
+- name: mod5_4__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/mod5_4/step_0_qiskit_standard/cheap_1_opt_mod5_4_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - mod5_4__qiskit_standard
+- name: mod5_4__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/mod5_4/step_0_tket/cheap_1_opt_mod5_4_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - mod5_4__tket
+- name: mod_mult_55__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/mod_mult_55/step_0_qiskit_ai/cheap_1_opt_mod_mult_55_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - mod_mult_55__qiskit_ai
+- name: mod_mult_55__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/mod_mult_55/step_0_qiskit_standard/cheap_1_opt_mod_mult_55_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - mod_mult_55__qiskit_standard
+- name: mod_mult_55__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/mod_mult_55/step_0_tket/cheap_1_opt_mod_mult_55_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - mod_mult_55__tket
+- name: mod_red_21__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/mod_red_21/step_0_qiskit_ai/cheap_1_opt_mod_red_21_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - mod_red_21__qiskit_ai
+- name: mod_red_21__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/mod_red_21/step_0_qiskit_standard/cheap_1_opt_mod_red_21_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - mod_red_21__qiskit_standard
+- name: mod_red_21__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/mod_red_21/step_0_tket/cheap_1_opt_mod_red_21_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - mod_red_21__tket
+- name: qec__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qec/step_0_qiskit_ai/cheap_1_opt_qec_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qec__qiskit_ai
+- name: qec__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qec/step_0_qiskit_standard/cheap_1_opt_qec_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qec__qiskit_standard
+- name: qec__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qec/step_0_tket/cheap_1_opt_qec_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qec__tket
+- name: qft__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qft/step_0_qiskit_ai/cheap_1_opt_qft_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft__qiskit_ai
+- name: qft__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qft/step_0_qiskit_standard/cheap_1_opt_qft_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft__qiskit_standard
+- name: qft__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qft/step_0_tket/cheap_1_opt_qft_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft__tket
+- name: qft_4__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qft_4/step_0_qiskit_ai/cheap_1_opt_qft_4_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_4__qiskit_ai
+- name: qft_4__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qft_4/step_0_qiskit_standard/cheap_1_opt_qft_4_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_4__qiskit_standard
+- name: qft_4__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qft_4/step_0_tket/cheap_1_opt_qft_4_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qft_4__tket
+- name: qpt__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qpt/step_0_qiskit_standard/cheap_1_opt_qpt_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qpt__qiskit_standard
+- name: qpt__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qpt/step_0_tket/cheap_1_opt_qpt_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qpt__tket
+- name: rb__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/rb/step_0_qiskit_ai/cheap_1_opt_rb_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - rb__qiskit_ai
+- name: rb__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/rb/step_0_qiskit_standard/cheap_1_opt_rb_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - rb__qiskit_standard
+- name: rb__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/rb/step_0_tket/cheap_1_opt_rb_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - rb__tket
+- name: rc_adder_6__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/rc_adder_6/step_0_qiskit_ai/cheap_1_opt_rc_adder_6_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - rc_adder_6__qiskit_ai
+- name: rc_adder_6__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/rc_adder_6/step_0_qiskit_standard/cheap_1_opt_rc_adder_6_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - rc_adder_6__qiskit_standard
+- name: rc_adder_6__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/rc_adder_6/step_0_tket/cheap_1_opt_rc_adder_6_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - rc_adder_6__tket
+- name: teleport__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/teleport/step_0_qiskit_ai/cheap_1_opt_teleport_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - teleport__qiskit_ai
+- name: teleport__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/teleport/step_0_qiskit_standard/cheap_1_opt_teleport_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - teleport__qiskit_standard
+- name: teleport__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/teleport/step_0_tket/cheap_1_opt_teleport_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - teleport__tket
+- name: teleportv2__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/teleportv2/step_0_tket/cheap_1_opt_teleportv2_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - teleportv2__tket
+- name: tof_10__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/tof_10/step_0_qiskit_ai/cheap_1_opt_tof_10_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_10__qiskit_ai
+- name: tof_10__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/tof_10/step_0_qiskit_standard/cheap_1_opt_tof_10_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_10__qiskit_standard
+- name: tof_10__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/tof_10/step_0_tket/cheap_1_opt_tof_10_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_10__tket
+- name: tof_3__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/tof_3/step_0_qiskit_ai/cheap_1_opt_tof_3_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_3__qiskit_ai
+- name: tof_3__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/tof_3/step_0_qiskit_standard/cheap_1_opt_tof_3_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_3__qiskit_standard
+- name: tof_3__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/tof_3/step_0_tket/cheap_1_opt_tof_3_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_3__tket
+- name: tof_4__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/tof_4/step_0_qiskit_ai/cheap_1_opt_tof_4_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_4__qiskit_ai
+- name: tof_4__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/tof_4/step_0_qiskit_standard/cheap_1_opt_tof_4_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_4__qiskit_standard
+- name: tof_4__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/tof_4/step_0_tket/cheap_1_opt_tof_4_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_4__tket
+- name: tof_5__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/tof_5/step_0_qiskit_ai/cheap_1_opt_tof_5_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_5__qiskit_ai
+- name: tof_5__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/tof_5/step_0_qiskit_standard/cheap_1_opt_tof_5_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_5__qiskit_standard
+- name: tof_5__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/tof_5/step_0_tket/cheap_1_opt_tof_5_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - tof_5__tket
+- name: vbe_adder_3__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/vbe_adder_3/step_0_qiskit_ai/cheap_1_opt_vbe_adder_3_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - vbe_adder_3__qiskit_ai
+- name: vbe_adder_3__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/vbe_adder_3/step_0_qiskit_standard/cheap_1_opt_vbe_adder_3_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - vbe_adder_3__qiskit_standard
+- name: vbe_adder_3__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/vbe_adder_3/step_0_tket/cheap_1_opt_vbe_adder_3_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - vbe_adder_3__tket
+- name: qaoa_barabasi_albert_N10_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N10_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N10_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N10_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N10_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N10_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N10_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N10_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N10_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N10_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N10_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N10_3reps__tket
+- name: qaoa_barabasi_albert_N11_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N11_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N11_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N11_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N11_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N11_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N11_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N11_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N11_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N11_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N11_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N11_3reps__tket
+- name: qaoa_barabasi_albert_N12_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N12_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N12_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N12_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N12_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N12_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N12_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N12_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N12_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N12_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N12_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N12_3reps__tket
+- name: qaoa_barabasi_albert_N13_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N13_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N13_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N13_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N13_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N13_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N13_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N13_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N13_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N13_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N13_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N13_3reps__tket
+- name: qaoa_barabasi_albert_N14_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N14_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N14_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N14_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N14_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N14_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N14_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N14_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N14_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N14_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N14_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N14_3reps__tket
+- name: qaoa_barabasi_albert_N15_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N15_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N15_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N15_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N15_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N15_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N15_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N15_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N15_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N15_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N15_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N15_3reps__tket
+- name: qaoa_barabasi_albert_N16_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N16_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N16_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N16_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N16_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N16_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N16_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N16_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N16_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N16_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N16_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N16_3reps__tket
+- name: qaoa_barabasi_albert_N17_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N17_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N17_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N17_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N17_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N17_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N17_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N17_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N17_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N17_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N17_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N17_3reps__tket
+- name: qaoa_barabasi_albert_N18_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N18_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N18_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N18_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N18_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N18_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N18_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N18_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N18_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N18_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N18_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N18_3reps__tket
+- name: qaoa_barabasi_albert_N19_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N19_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N19_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N19_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N19_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N19_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N19_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N19_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N19_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N19_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N19_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N19_3reps__tket
+- name: qaoa_barabasi_albert_N20_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N20_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N20_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N20_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N20_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N20_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N20_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N20_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N20_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N20_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N20_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N20_3reps__tket
+- name: qaoa_barabasi_albert_N3_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N3_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N3_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N3_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N3_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N3_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N3_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N3_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N3_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N3_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N3_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N3_3reps__tket
+- name: qaoa_barabasi_albert_N4_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N4_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N4_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N4_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N4_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N4_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N4_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N4_3reps__qiskit_standard
+- name: qaoa_barabasi_albert_N4_3reps__tket
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/tket/qaoa_barabasi_albert_N4_3reps/step_0_tket/cheap_1_opt_qaoa_barabasi_albert_N4_3reps_tket_step0_tket.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N4_3reps__tket
+- name: qaoa_barabasi_albert_N5_3reps__qiskit_ai
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_ai/qaoa_barabasi_albert_N5_3reps/step_0_qiskit_ai/cheap_1_opt_qaoa_barabasi_albert_N5_3reps_qiskit_ai_step0_qiskit_ai.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N5_3reps__qiskit_ai
+- name: qaoa_barabasi_albert_N5_3reps__qiskit_standard
+  path: /Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt/reports/chains/qiskit_standard/qaoa_barabasi_albert_N5_3reps/step_0_qiskit_standard/cheap_1_opt_qaoa_barabasi_albert_N5_3reps_qiskit_standard_step0_qiskit_standard.qasm
+  gate_set: IBMN
+  tags:
+  - experiment
+  - qaoa_barabasi_albert_N5_3reps__qiskit_standard
+runners:
+- name: qiskit_ai
+  type: chain
+  steps:
+  - type: qiskit_ai
+    name: qiskit_ai
+    optimization_levels:
+    - 3
+    iterations_per_level: 1
+    layout_mode: optimize
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/full_run/two_opt/reports/chains/qiskit_ai
+- name: qiskit_standard
+  type: chain
+  steps:
+  - type: qiskit_standard
+    name: qiskit_standard
+    optimization_levels:
+    - 3
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/full_run/two_opt/reports/chains/qiskit_standard
+- name: tket
+  type: chain
+  steps:
+  - type: tket
+    name: tket
+    gate_set: IBMN
+  save_intermediates: true
+  output_dir: brute_force_chains/cheap_optimizers/full_run/two_opt/reports/chains/tket
+metrics:
+- depth
+- two_qubit_gates
+- two_qubit_depth
+- total_gates

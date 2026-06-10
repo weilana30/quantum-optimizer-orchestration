@@ -5,6 +5,7 @@ import json
 import multiprocessing
 import os
 import socket
+import signal
 import sys
 import threading
 import time
@@ -65,7 +66,26 @@ T = TypeVar("T")
 
 # Default number of BQSKit workers for WISQ resynthesis
 # 12 workers provides good parallelism while leaving headroom for system processes
-DEFAULT_BQSKIT_NUM_WORKERS = 12
+DEFAULT_BQSKIT_NUM_WORKERS = 4
+
+
+
+class RunnerTimeoutError(Exception):
+    pass
+
+
+def _timeout_handler(signum, frame):
+    raise RunnerTimeoutError("Runner timed out")
+
+
+def run_with_timeout(func, timeout_seconds: int):
+    signal.signal(signal.SIGALRM, _timeout_handler)
+    signal.alarm(timeout_seconds)
+
+    try:
+        return func()
+    finally:
+        signal.alarm(0)
 
 
 def configure_bqskit_workers(num_workers: int | None = None, worker_fraction: float | None = None) -> int:
@@ -283,8 +303,13 @@ def load_experiment_config(path: Path) -> ExperimentConfig:
     )
 
 
+from qiskit.qasm2 import LEGACY_CUSTOM_INSTRUCTIONS
+
 def _load_circuit(path: Path) -> QuantumCircuit:
-    return qasm2.loads(Path(path).read_text())
+    return qasm2.loads(
+        Path(path).read_text(),
+        custom_instructions=LEGACY_CUSTOM_INSTRUCTIONS,
+    )
 
 
 def _result_record(
@@ -492,6 +517,7 @@ def _run_chain_runner(
     experiment_job_info: str,
     spec: RunnerSpec,
     output_root: Path,
+    circuit_name: str,
 ) -> list[TranspiledCircuit]:
     """Run a chain of optimizers sequentially.
 
@@ -517,9 +543,16 @@ def _run_chain_runner(
     # Create chain steps from configuration
     steps = create_chain_from_config(steps_config)
 
-    chain_name = f"{experiment_job_info}_{spec.name}"
-    chain_output_dir = Path(options.get("output_dir", output_root / "chains" / spec.name))
+    chain_name = f"{experiment_job_info}_{circuit_name}_{spec.name}"
 
+    base_output_dir = Path(
+        options.get(
+            "output_dir",
+            output_root / "chains" / spec.name,
+        )
+    )
+
+    chain_output_dir = base_output_dir / circuit_name
     print(f"      Chain config: {len(steps)} steps", flush=True)
     for i, step in enumerate(steps):
         print(f"        Step {i + 1}: {step.step_name} ({step.runner_type})", flush=True)
@@ -618,9 +651,18 @@ def run_experiment(
                 continue
             print(f"  Running runner: {runner.name} (type: {runner.type})", flush=True)
             try:
+                timeout_seconds = int(config.metadata.get("runner_timeout_seconds", 300))
                 if runner.type == "qiskit_ai":
                     print("    Executing Qiskit AI transpiler...", flush=True)
-                    variants = _run_qiskit_ai_runner(circuit, runner)
+
+                    variants = run_with_timeout(
+                        lambda: _run_qiskit_ai_runner(
+                            circuit,
+                            runner,
+                        ),
+                        timeout_seconds,
+                    )
+
                     print(f"    Completed Qiskit AI: {len(variants)} variants", flush=True)
                 elif runner.type == "qiskit_standard":
                     print("    Executing standard Qiskit transpiler...", flush=True)
@@ -658,13 +700,19 @@ def run_experiment(
                     print(f"    Completed VOQC: {len(variants)} variants", flush=True)
                 elif runner.type == "chain":
                     print("    Executing chain optimizer...", flush=True)
-                    variants = _run_chain_runner(
-                        circuit,
-                        circuit_cfg.path,
-                        config.job_info,
-                        runner,
-                        output_root,
+
+                    variants = run_with_timeout(
+                        lambda: _run_chain_runner(
+                            circuit,
+                            circuit_cfg.path,
+                            config.job_info,
+                            runner,
+                            output_root,
+                            circuit_cfg.name,
+                        ),
+                        timeout_seconds,
                     )
+
                     print(f"    Completed chain: {len(variants)} variants", flush=True)
                 else:
                     raise ValueError(f"Unsupported runner type '{runner.type}'")

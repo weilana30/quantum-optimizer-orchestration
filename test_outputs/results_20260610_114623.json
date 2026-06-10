@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "job_info": "hwb10_qiskit_ai_test",
+    "output_dir": "test_outputs",
+    "num_results": 0
+  },
+  "results": [],
+  "failures": [
+    {
+      "circuit": "hwb10",
+      "runner": "qiskit_ai",
+      "error": "Runner timed out"
+    }
+  ]
+}

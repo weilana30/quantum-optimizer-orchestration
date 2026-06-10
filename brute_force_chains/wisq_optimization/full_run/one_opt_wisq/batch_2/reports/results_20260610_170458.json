@@ -1,0 +1,2181 @@
+{
+  "metadata": {
+    "job_info": "cheap_1_opt_wisq_batch_2",
+    "output_dir": "/Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports",
+    "num_results": 72
+  },
+  "results": [
+    {
+      "circuit": "tof_10",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 195,
+        "two_qubit_gates": 86,
+        "two_qubit_depth": 80,
+        "total_gates": 297
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_tof_10_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.14654975000303
+        ],
+        "step_improvements": [
+          -405.88235294117646
+        ],
+        "total_duration_seconds": 180.15150008408818
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/tof_10/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_tof_10_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "tof_10",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 191,
+        "two_qubit_gates": 86,
+        "two_qubit_depth": 82,
+        "total_gates": 297
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_tof_10_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          188.52195716591086
+        ],
+        "step_improvements": [
+          -405.88235294117646
+        ],
+        "total_duration_seconds": 188.52551229204983
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/tof_10/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_tof_10_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "tof_3",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 42,
+        "two_qubit_gates": 16,
+        "two_qubit_depth": 16,
+        "total_gates": 55
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_tof_3_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.5297793749487
+        ],
+        "step_improvements": [
+          -433.3333333333333
+        ],
+        "total_duration_seconds": 180.5306995830033
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/tof_3/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_tof_3_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "tof_3",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 50,
+        "two_qubit_gates": 16,
+        "two_qubit_depth": 15,
+        "total_gates": 67
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_tof_3_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.56911583303008
+        ],
+        "step_improvements": [
+          -433.3333333333333
+        ],
+        "total_duration_seconds": 185.57743387506343
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/tof_3/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_tof_3_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "tof_4",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 64,
+        "two_qubit_gates": 26,
+        "two_qubit_depth": 26,
+        "total_gates": 98
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_tof_4_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.38648308394477
+        ],
+        "step_improvements": [
+          -420.0
+        ],
+        "total_duration_seconds": 180.3875767920399
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/tof_4/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_tof_4_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "tof_4",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 73,
+        "two_qubit_gates": 22,
+        "two_qubit_depth": 19,
+        "total_gates": 130
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_tof_4_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.2061717499746
+        ],
+        "step_improvements": [
+          -340.0
+        ],
+        "total_duration_seconds": 185.20961312495638
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/tof_4/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_tof_4_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "tof_5",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 95,
+        "two_qubit_gates": 36,
+        "two_qubit_depth": 32,
+        "total_gates": 151
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_tof_5_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.52587529201992
+        ],
+        "step_improvements": [
+          -414.2857142857143
+        ],
+        "total_duration_seconds": 180.52724445797503
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/tof_5/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_tof_5_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "tof_5",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 121,
+        "two_qubit_gates": 34,
+        "two_qubit_depth": 31,
+        "total_gates": 199
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_tof_5_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.61452108400408
+        ],
+        "step_improvements": [
+          -385.7142857142857
+        ],
+        "total_duration_seconds": 185.62426595797297
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/tof_5/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_tof_5_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "vbe_adder_3",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 89,
+        "two_qubit_gates": 46,
+        "two_qubit_depth": 33,
+        "total_gates": 157
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_vbe_adder_3_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.52401304093655
+        ],
+        "step_improvements": [
+          -130.0
+        ],
+        "total_duration_seconds": 180.52559799992014
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/vbe_adder_3/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_vbe_adder_3_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "vbe_adder_3",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 87,
+        "two_qubit_gates": 45,
+        "two_qubit_depth": 35,
+        "total_gates": 177
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_vbe_adder_3_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          186.73038841690868
+        ],
+        "step_improvements": [
+          -125.0
+        ],
+        "total_duration_seconds": 186.7468616249971
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/vbe_adder_3/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_vbe_adder_3_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N10_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 91,
+        "two_qubit_gates": 79,
+        "two_qubit_depth": 48,
+        "total_gates": 327
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N10_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.60690174996853
+        ],
+        "step_improvements": [
+          17.708333333333332
+        ],
+        "total_duration_seconds": 180.6093764170073
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N10_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N10_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N10_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 110,
+        "two_qubit_gates": 82,
+        "two_qubit_depth": 57,
+        "total_gates": 342
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N10_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.75029520795215
+        ],
+        "step_improvements": [
+          14.583333333333334
+        ],
+        "total_duration_seconds": 185.81804554199334
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N10_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N10_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N11_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 109,
+        "two_qubit_gates": 95,
+        "two_qubit_depth": 63,
+        "total_gates": 369
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N11_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.100801958004
+        ],
+        "step_improvements": [
+          12.037037037037036
+        ],
+        "total_duration_seconds": 180.10411920805927
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N11_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N11_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N11_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 92,
+        "two_qubit_gates": 87,
+        "two_qubit_depth": 50,
+        "total_gates": 364
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N11_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.2515368340537
+        ],
+        "step_improvements": [
+          19.444444444444443
+        ],
+        "total_duration_seconds": 185.271482875105
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N11_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N11_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N12_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 129,
+        "two_qubit_gates": 104,
+        "two_qubit_depth": 74,
+        "total_gates": 407
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N12_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.7127448329702
+        ],
+        "step_improvements": [
+          13.333333333333334
+        ],
+        "total_duration_seconds": 180.71727883291896
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N12_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N12_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N12_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 125,
+        "two_qubit_gates": 109,
+        "two_qubit_depth": 70,
+        "total_gates": 452
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N12_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.9695908339927
+        ],
+        "step_improvements": [
+          9.166666666666666
+        ],
+        "total_duration_seconds": 185.9873922910774
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N12_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N12_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N13_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 116,
+        "two_qubit_gates": 114,
+        "two_qubit_depth": 74,
+        "total_gates": 440
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N13_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.19621433294378
+        ],
+        "step_improvements": [
+          13.636363636363637
+        ],
+        "total_duration_seconds": 180.21132320794277
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N13_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N13_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N13_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 121,
+        "two_qubit_gates": 110,
+        "two_qubit_depth": 69,
+        "total_gates": 438
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N13_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          186.00138666597195
+        ],
+        "step_improvements": [
+          16.666666666666668
+        ],
+        "total_duration_seconds": 186.0281590409577
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N13_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N13_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N14_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 138,
+        "two_qubit_gates": 120,
+        "two_qubit_depth": 80,
+        "total_gates": 474
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N14_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.33270279096905
+        ],
+        "step_improvements": [
+          16.666666666666668
+        ],
+        "total_duration_seconds": 180.3385556670837
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N14_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N14_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N14_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 136,
+        "two_qubit_gates": 124,
+        "two_qubit_depth": 83,
+        "total_gates": 496
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N14_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          186.17647466692142
+        ],
+        "step_improvements": [
+          13.88888888888889
+        ],
+        "total_duration_seconds": 186.19396629196126
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N14_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N14_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N15_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 124,
+        "two_qubit_gates": 132,
+        "two_qubit_depth": 77,
+        "total_gates": 513
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N15_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.56189424998593
+        ],
+        "step_improvements": [
+          15.384615384615385
+        ],
+        "total_duration_seconds": 180.5701419999823
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N15_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N15_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N15_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 153,
+        "two_qubit_gates": 134,
+        "two_qubit_depth": 83,
+        "total_gates": 567
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N15_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          186.0013693749206
+        ],
+        "step_improvements": [
+          14.102564102564102
+        ],
+        "total_duration_seconds": 186.09179608291015
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N15_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N15_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N16_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 131,
+        "two_qubit_gates": 142,
+        "two_qubit_depth": 83,
+        "total_gates": 546
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N16_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.5456287499983
+        ],
+        "step_improvements": [
+          15.476190476190476
+        ],
+        "total_duration_seconds": 180.5506371250376
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N16_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N16_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N16_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 202,
+        "two_qubit_gates": 147,
+        "two_qubit_depth": 86,
+        "total_gates": 709
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N16_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          186.23825579101685
+        ],
+        "step_improvements": [
+          12.5
+        ],
+        "total_duration_seconds": 186.260964917019
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N16_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N16_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N17_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 173,
+        "two_qubit_gates": 151,
+        "two_qubit_depth": 113,
+        "total_gates": 581
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N17_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.15379879204556
+        ],
+        "step_improvements": [
+          16.11111111111111
+        ],
+        "total_duration_seconds": 180.15851116599515
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N17_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N17_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N17_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 150,
+        "two_qubit_gates": 165,
+        "two_qubit_depth": 88,
+        "total_gates": 621
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N17_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.3557262920076
+        ],
+        "step_improvements": [
+          8.333333333333334
+        ],
+        "total_duration_seconds": 185.4363532080315
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N17_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N17_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N18_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 184,
+        "two_qubit_gates": 180,
+        "two_qubit_depth": 122,
+        "total_gates": 640
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N18_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.10659874998964
+        ],
+        "step_improvements": [
+          6.25
+        ],
+        "total_duration_seconds": 180.11217566707637
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N18_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N18_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N18_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 193,
+        "two_qubit_gates": 172,
+        "two_qubit_depth": 104,
+        "total_gates": 772
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N18_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          186.72986516705714
+        ],
+        "step_improvements": [
+          10.416666666666666
+        ],
+        "total_duration_seconds": 186.75452154199593
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N18_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N18_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N19_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 164,
+        "two_qubit_gates": 183,
+        "two_qubit_depth": 116,
+        "total_gates": 665
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N19_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.35524166596588
+        ],
+        "step_improvements": [
+          10.294117647058824
+        ],
+        "total_duration_seconds": 180.3648206249345
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N19_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N19_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N19_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 206,
+        "two_qubit_gates": 191,
+        "two_qubit_depth": 128,
+        "total_gates": 749
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N19_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          186.63095712498762
+        ],
+        "step_improvements": [
+          6.372549019607843
+        ],
+        "total_duration_seconds": 186.66071241593454
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N19_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N19_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N20_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 179,
+        "two_qubit_gates": 201,
+        "two_qubit_depth": 122,
+        "total_gates": 710
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N20_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.74409912503324
+        ],
+        "step_improvements": [
+          6.944444444444445
+        ],
+        "total_duration_seconds": 180.76454129104968
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N20_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N20_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N20_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 201,
+        "two_qubit_gates": 199,
+        "two_qubit_depth": 111,
+        "total_gates": 763
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N20_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          195.28931566595566
+        ],
+        "step_improvements": [
+          7.87037037037037
+        ],
+        "total_duration_seconds": 195.31101695890538
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N20_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N20_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N3_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 37,
+        "two_qubit_gates": 12,
+        "two_qubit_depth": 12,
+        "total_gates": 78
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N3_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.44276408397127
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 180.44647270801943
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N3_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N3_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N3_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 37,
+        "two_qubit_gates": 6,
+        "two_qubit_depth": 6,
+        "total_gates": 74
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N3_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          188.8459190839203
+        ],
+        "step_improvements": [
+          50.0
+        ],
+        "total_duration_seconds": 188.85718504199758
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N3_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N3_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N4_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 47,
+        "two_qubit_gates": 21,
+        "two_qubit_depth": 19,
+        "total_gates": 113
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N4_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.41614612494595
+        ],
+        "step_improvements": [
+          12.5
+        ],
+        "total_duration_seconds": 180.4178664579522
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N4_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N4_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N4_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 47,
+        "two_qubit_gates": 21,
+        "two_qubit_depth": 18,
+        "total_gates": 113
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N4_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          186.29711883398704
+        ],
+        "step_improvements": [
+          12.5
+        ],
+        "total_duration_seconds": 186.32134095800575
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N4_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N4_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N5_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 59,
+        "two_qubit_gates": 30,
+        "two_qubit_depth": 24,
+        "total_gates": 150
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N5_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.57186450005975
+        ],
+        "step_improvements": [
+          16.666666666666668
+        ],
+        "total_duration_seconds": 180.57470275007654
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N5_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N5_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N5_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 59,
+        "two_qubit_gates": 30,
+        "two_qubit_depth": 25,
+        "total_gates": 149
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N5_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.3774295418989
+        ],
+        "step_improvements": [
+          16.666666666666668
+        ],
+        "total_duration_seconds": 185.40719145804178
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N5_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N5_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N6_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 73,
+        "two_qubit_gates": 39,
+        "two_qubit_depth": 31,
+        "total_gates": 183
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N6_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.73549416591413
+        ],
+        "step_improvements": [
+          18.75
+        ],
+        "total_duration_seconds": 180.76382720901165
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N6_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N6_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N6_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 134,
+        "two_qubit_gates": 38,
+        "two_qubit_depth": 32,
+        "total_gates": 283
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N6_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.72041079204064
+        ],
+        "step_improvements": [
+          20.833333333333332
+        ],
+        "total_duration_seconds": 185.74137470894493
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N6_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N6_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N7_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 83,
+        "two_qubit_gates": 52,
+        "two_qubit_depth": 41,
+        "total_gates": 222
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N7_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          148.03656187502202
+        ],
+        "step_improvements": [
+          13.333333333333334
+        ],
+        "total_duration_seconds": 148.04026079096366
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N7_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N7_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N7_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 94,
+        "two_qubit_gates": 51,
+        "two_qubit_depth": 37,
+        "total_gates": 262
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N7_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.34738462499809
+        ],
+        "step_improvements": [
+          15.0
+        ],
+        "total_duration_seconds": 185.37058095796965
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N7_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N7_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N8_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 92,
+        "two_qubit_gates": 62,
+        "two_qubit_depth": 47,
+        "total_gates": 261
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N8_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.2853618329391
+        ],
+        "step_improvements": [
+          13.88888888888889
+        ],
+        "total_duration_seconds": 180.28949237498455
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N8_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N8_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N8_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 127,
+        "two_qubit_gates": 60,
+        "two_qubit_depth": 47,
+        "total_gates": 327
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N8_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          184.9896188749699
+        ],
+        "step_improvements": [
+          16.666666666666668
+        ],
+        "total_duration_seconds": 185.00832775002345
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N8_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N8_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N9_3reps",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 95,
+        "two_qubit_gates": 74,
+        "two_qubit_depth": 51,
+        "total_gates": 296
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N9_3reps_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.3969677919522
+        ],
+        "step_improvements": [
+          11.904761904761905
+        ],
+        "total_duration_seconds": 180.4009560419945
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qaoa_barabasi_albert_N9_3reps/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N9_3reps_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N9_3reps",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 98,
+        "two_qubit_gates": 75,
+        "two_qubit_depth": 49,
+        "total_gates": 313
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N9_3reps_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.81176900002174
+        ],
+        "step_improvements": [
+          10.714285714285714
+        ],
+        "total_duration_seconds": 185.85415933304466
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qaoa_barabasi_albert_N9_3reps/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qaoa_barabasi_albert_N9_3reps_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_10",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 196,
+        "two_qubit_gates": 103,
+        "two_qubit_depth": 38,
+        "total_gates": 731
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_10_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.5708399580326
+        ],
+        "step_improvements": [
+          1.9047619047619047
+        ],
+        "total_duration_seconds": 180.57850837509613
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_10/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_10_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_10",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 203,
+        "two_qubit_gates": 102,
+        "two_qubit_depth": 54,
+        "total_gates": 565
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_10_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.01178083301056
+        ],
+        "step_improvements": [
+          2.857142857142857
+        ],
+        "total_duration_seconds": 185.05426458397415
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_10/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_10_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_12",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 247,
+        "two_qubit_gates": 148,
+        "two_qubit_depth": 46,
+        "total_gates": 1083
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_12_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.55277858301997
+        ],
+        "step_improvements": [
+          1.3333333333333333
+        ],
+        "total_duration_seconds": 180.5585371250054
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_12/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_12_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_12",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 283,
+        "two_qubit_gates": 147,
+        "two_qubit_depth": 66,
+        "total_gates": 956
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_12_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.21086916700006
+        ],
+        "step_improvements": [
+          2.0
+        ],
+        "total_duration_seconds": 185.22790804202668
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_12/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_12_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_16",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 338,
+        "two_qubit_gates": 264,
+        "two_qubit_depth": 66,
+        "total_gates": 1966
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_16_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.11675137502607
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 180.12597699998878
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_16/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_16_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_16",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 444,
+        "two_qubit_gates": 259,
+        "two_qubit_depth": 94,
+        "total_gates": 1716
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_16_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.45248979202006
+        ],
+        "step_improvements": [
+          1.893939393939394
+        ],
+        "total_duration_seconds": 185.47836304199882
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_16/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_16_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 67,
+        "two_qubit_gates": 50,
+        "two_qubit_depth": 42,
+        "total_gates": 102
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_8_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.44500329194125
+        ],
+        "step_improvements": [
+          -78.57142857142857
+        ],
+        "total_duration_seconds": 180.4479618750047
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_8/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_8_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 74,
+        "two_qubit_gates": 51,
+        "two_qubit_depth": 43,
+        "total_gates": 149
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_8_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.44049725006334
+        ],
+        "step_improvements": [
+          -82.14285714285714
+        ],
+        "total_duration_seconds": 185.47314791707322
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_8/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_8_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_N002",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 18,
+        "two_qubit_gates": 3,
+        "two_qubit_depth": 3,
+        "total_gates": 19
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N002_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.54955820797477
+        ],
+        "step_improvements": [
+          40.0
+        ],
+        "total_duration_seconds": 180.55145933304448
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_N002/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_N002_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_N002",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 19,
+        "two_qubit_gates": 3,
+        "two_qubit_depth": 3,
+        "total_gates": 21
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N002_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.24243020801805
+        ],
+        "step_improvements": [
+          40.0
+        ],
+        "total_duration_seconds": 185.39125758304726
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_N002/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_N002_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_N003",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 33,
+        "two_qubit_gates": 7,
+        "two_qubit_depth": 7,
+        "total_gates": 36
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N003_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.4619537909748
+        ],
+        "step_improvements": [
+          22.22222222222222
+        ],
+        "total_duration_seconds": 180.46452945796773
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_N003/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_N003_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_N003",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 32,
+        "two_qubit_gates": 6,
+        "two_qubit_depth": 6,
+        "total_gates": 43
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N003_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          184.49759587505832
+        ],
+        "step_improvements": [
+          33.333333333333336
+        ],
+        "total_duration_seconds": 184.50003137497697
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_N003/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_N003_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_N004",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 40,
+        "two_qubit_gates": 14,
+        "two_qubit_depth": 13,
+        "total_gates": 51
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N004_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.57666791696101
+        ],
+        "step_improvements": [
+          22.22222222222222
+        ],
+        "total_duration_seconds": 180.57746412500273
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_N004/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_N004_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_N004",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 41,
+        "two_qubit_gates": 12,
+        "two_qubit_depth": 11,
+        "total_gates": 68
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N004_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.10523158393335
+        ],
+        "step_improvements": [
+          33.333333333333336
+        ],
+        "total_duration_seconds": 185.14269308408257
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_N004/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_N004_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_N005",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 55,
+        "two_qubit_gates": 21,
+        "two_qubit_depth": 19,
+        "total_gates": 73
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N005_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.51533545798156
+        ],
+        "step_improvements": [
+          19.23076923076923
+        ],
+        "total_duration_seconds": 180.516349292011
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_N005/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_N005_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_N005",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 65,
+        "two_qubit_gates": 18,
+        "two_qubit_depth": 15,
+        "total_gates": 129
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N005_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          184.62459054100327
+        ],
+        "step_improvements": [
+          30.76923076923077
+        ],
+        "total_duration_seconds": 184.64304233400617
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_N005/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_N005_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_N006",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 80,
+        "two_qubit_gates": 31,
+        "two_qubit_depth": 27,
+        "total_gates": 99
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N006_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.65516837500036
+        ],
+        "step_improvements": [
+          20.512820512820515
+        ],
+        "total_duration_seconds": 180.65689974999987
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_N006/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_N006_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_N006",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 110,
+        "two_qubit_gates": 33,
+        "two_qubit_depth": 30,
+        "total_gates": 237
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N006_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.01396529108752
+        ],
+        "step_improvements": [
+          15.384615384615385
+        ],
+        "total_duration_seconds": 185.06523066596128
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_N006/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_N006_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_N007",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 88,
+        "two_qubit_gates": 47,
+        "two_qubit_depth": 39,
+        "total_gates": 131
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N007_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.07286279194523
+        ],
+        "step_improvements": [
+          7.8431372549019605
+        ],
+        "total_duration_seconds": 180.07494995894376
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_N007/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_N007_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_N007",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 132,
+        "two_qubit_gates": 46,
+        "two_qubit_depth": 33,
+        "total_gates": 276
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N007_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.13518608291633
+        ],
+        "step_improvements": [
+          9.803921568627452
+        ],
+        "total_duration_seconds": 185.1584908750374
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_N007/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_N007_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_N008",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 103,
+        "two_qubit_gates": 61,
+        "two_qubit_depth": 54,
+        "total_gates": 156
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N008_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.22761420800816
+        ],
+        "step_improvements": [
+          10.294117647058824
+        ],
+        "total_duration_seconds": 180.23042945796624
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_N008/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_N008_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_N008",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 99,
+        "two_qubit_gates": 63,
+        "two_qubit_depth": 46,
+        "total_gates": 178
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N008_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          186.34533529100008
+        ],
+        "step_improvements": [
+          7.352941176470588
+        ],
+        "total_duration_seconds": 186.37119904102292
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_N008/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_N008_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_N009",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 129,
+        "two_qubit_gates": 73,
+        "two_qubit_depth": 58,
+        "total_gates": 186
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N009_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.15484091604594
+        ],
+        "step_improvements": [
+          13.095238095238095
+        ],
+        "total_duration_seconds": 180.1566246249713
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_N009/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_N009_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_N009",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 127,
+        "two_qubit_gates": 83,
+        "two_qubit_depth": 66,
+        "total_gates": 198
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N009_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.02378862490878
+        ],
+        "step_improvements": [
+          1.1904761904761905
+        ],
+        "total_duration_seconds": 185.12061041605193
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_N009/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_N009_wisq_bqskit_step0_wisq_bqskit.qasm"
+    },
+    {
+      "circuit": "qft_N010",
+      "runner": "wisq_rules",
+      "optimizer": "chain",
+      "label": "chain_wisq_rules",
+      "metrics": {
+        "depth": 160,
+        "two_qubit_gates": 99,
+        "two_qubit_depth": 79,
+        "total_gates": 233
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N010_wisq_rules",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_rules",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          180.47171008295845
+        ],
+        "step_improvements": [
+          5.714285714285714
+        ],
+        "total_duration_seconds": 180.47451412503142
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_rules/qft_N010/step_0_wisq_rules/cheap_1_opt_wisq_batch_2_qft_N010_wisq_rules_step0_wisq_rules.qasm"
+    },
+    {
+      "circuit": "qft_N010",
+      "runner": "wisq_bqskit",
+      "optimizer": "chain",
+      "label": "chain_wisq_bqskit",
+      "metrics": {
+        "depth": 147,
+        "two_qubit_gates": 96,
+        "two_qubit_depth": 69,
+        "total_gates": 245
+      },
+      "metadata": {
+        "chain_name": "cheap_1_opt_wisq_batch_2_qft_N010_wisq_bqskit",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "wisq_bqskit",
+            "runner_type": "wisq"
+          }
+        ],
+        "step_durations": [
+          185.23699212505016
+        ],
+        "step_improvements": [
+          8.571428571428571
+        ],
+        "total_duration_seconds": 185.27359574998263
+      },
+      "artifact_path": "brute_force_chains/wisq_optimization/full_run/one_opt_wisq/batch_2/reports/chains/wisq_bqskit/qft_N010/step_0_wisq_bqskit/cheap_1_opt_wisq_batch_2_qft_N010_wisq_bqskit_step0_wisq_bqskit.qasm"
+    }
+  ],
+  "failures": [
+    {
+      "circuit": "teleportv2",
+      "runner": "wisq_rules",
+      "error": "'Unable to translate the operations in the circuit: {(\"u3\", 1), (\"h\", 1), (\"cx\", 2), (\"barrier\", 3), (\"measure\", 1), (\"if_else\", 1), (\"z\", 1), (\"x\", 1), (\"y\", 1), (\"post\", 1)} to the backend\\'s (or manually specified) target basis: {\"x\", \"sx\", \"rz\", \"cx\", \"measure\", \"reset\", \"barrier\", \"snapshot\", \"delay\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'"
+    },
+    {
+      "circuit": "teleportv2",
+      "runner": "wisq_bqskit",
+      "error": "'Unable to translate the operations in the circuit: {(\"u3\", 1), (\"h\", 1), (\"cx\", 2), (\"barrier\", 3), (\"measure\", 1), (\"if_else\", 1), (\"z\", 1), (\"x\", 1), (\"y\", 1), (\"post\", 1)} to the backend\\'s (or manually specified) target basis: {\"x\", \"sx\", \"cx\", \"rz\", \"measure\", \"reset\", \"barrier\", \"snapshot\", \"delay\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'"
+    }
+  ]
+}
