@@ -1,0 +1,3091 @@
+{
+  "metadata": {
+    "job_info": "one_opt_qiskit_ai",
+    "output_dir": "/Users/andrewweiland/UCCS_REU/quantum-optimizer-orchestration/brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports",
+    "num_results": 102
+  },
+  "results": [
+    {
+      "circuit": "efficient_su2_10_r2",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 11,
+        "two_qubit_gates": 18,
+        "two_qubit_depth": 11,
+        "total_gates": 18
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_efficient_su2_10_r2_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.5778784169815481
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.5783149170456454
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/efficient_su2_10_r2/step_0_qiskit_ai/one_opt_qiskit_ai_efficient_su2_10_r2_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "efficient_su2_12",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 41,
+        "two_qubit_gates": 66,
+        "two_qubit_depth": 33,
+        "total_gates": 162
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_efficient_su2_12_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.025249875034205616
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.026294624898582697
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/efficient_su2_12/step_0_qiskit_ai/one_opt_qiskit_ai_efficient_su2_12_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "efficient_su2_12_r2",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 13,
+        "two_qubit_gates": 22,
+        "two_qubit_depth": 13,
+        "total_gates": 22
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_efficient_su2_12_r2_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.007595584029331803
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.007939542061649263
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/efficient_su2_12_r2/step_0_qiskit_ai/one_opt_qiskit_ai_efficient_su2_12_r2_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "efficient_su2_16",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 81,
+        "two_qubit_gates": 120,
+        "two_qubit_depth": 73,
+        "total_gates": 248
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_efficient_su2_16_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.04785316693596542
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.049190124962478876
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/efficient_su2_16/step_0_qiskit_ai/one_opt_qiskit_ai_efficient_su2_16_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "efficient_su2_8",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 49,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 37,
+        "total_gates": 152
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_efficient_su2_8_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.01987012499012053
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.02081741695292294
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/efficient_su2_8/step_0_qiskit_ai/one_opt_qiskit_ai_efficient_su2_8_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "W-state",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 26,
+        "two_qubit_gates": 6,
+        "two_qubit_depth": 6,
+        "total_gates": 40
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_W-state_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.008013999904505908
+        ],
+        "step_improvements": [
+          -100.0
+        ],
+        "total_duration_seconds": 0.008518500020727515
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/W-state/step_0_qiskit_ai/one_opt_qiskit_ai_W-state_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "barenco_tof_10",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 356,
+        "two_qubit_gates": 192,
+        "two_qubit_depth": 176,
+        "total_gates": 463
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_barenco_tof_10_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.0798007920384407
+        ],
+        "step_improvements": [
+          -500.0
+        ],
+        "total_duration_seconds": 0.08170170895755291
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/barenco_tof_10/step_0_qiskit_ai/one_opt_qiskit_ai_barenco_tof_10_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "barenco_tof_3",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 49,
+        "two_qubit_gates": 24,
+        "two_qubit_depth": 22,
+        "total_gates": 64
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_barenco_tof_3_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.009967292076908052
+        ],
+        "step_improvements": [
+          -500.0
+        ],
+        "total_duration_seconds": 0.010475332965143025
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/barenco_tof_3/step_0_qiskit_ai/one_opt_qiskit_ai_barenco_tof_3_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "barenco_tof_4",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 95,
+        "two_qubit_gates": 48,
+        "two_qubit_depth": 44,
+        "total_gates": 121
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_barenco_tof_4_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.01616166706662625
+        ],
+        "step_improvements": [
+          -500.0
+        ],
+        "total_duration_seconds": 0.01689950004220009
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/barenco_tof_4/step_0_qiskit_ai/one_opt_qiskit_ai_barenco_tof_4_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "barenco_tof_5",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 141,
+        "two_qubit_gates": 72,
+        "two_qubit_depth": 66,
+        "total_gates": 178
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_barenco_tof_5_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.0228442499646917
+        ],
+        "step_improvements": [
+          -500.0
+        ],
+        "total_duration_seconds": 0.023756957962177694
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/barenco_tof_5/step_0_qiskit_ai/one_opt_qiskit_ai_barenco_tof_5_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "csla_mux_3",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 65,
+        "two_qubit_gates": 69,
+        "two_qubit_depth": 34,
+        "total_gates": 197
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_csla_mux_3_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.14795066602528095
+        ],
+        "step_improvements": [
+          -130.0
+        ],
+        "total_duration_seconds": 0.14906737499404699
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/csla_mux_3/step_0_qiskit_ai/one_opt_qiskit_ai_csla_mux_3_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "gf2^4_mult",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 117,
+        "two_qubit_gates": 99,
+        "two_qubit_depth": 72,
+        "total_gates": 233
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_gf2^4_mult_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.03628879098687321
+        ],
+        "step_improvements": [
+          -421.05263157894734
+        ],
+        "total_duration_seconds": 0.037411041907034814
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/gf2^4_mult/step_0_qiskit_ai/one_opt_qiskit_ai_gf2^4_mult_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "gf2^5_mult",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 162,
+        "two_qubit_gates": 154,
+        "two_qubit_depth": 101,
+        "total_gates": 374
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_gf2^5_mult_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.06641049997415394
+        ],
+        "step_improvements": [
+          -431.0344827586207
+        ],
+        "total_duration_seconds": 0.06803650001529604
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/gf2^5_mult/step_0_qiskit_ai/one_opt_qiskit_ai_gf2^5_mult_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "gf2^6_mult",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 186,
+        "two_qubit_gates": 221,
+        "two_qubit_depth": 118,
+        "total_gates": 497
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_gf2^6_mult_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.10910679202061146
+        ],
+        "step_improvements": [
+          -439.0243902439024
+        ],
+        "total_duration_seconds": 0.11106874991673976
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/gf2^6_mult/step_0_qiskit_ai/one_opt_qiskit_ai_gf2^6_mult_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "grover_5",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 544,
+        "two_qubit_gates": 288,
+        "two_qubit_depth": 268,
+        "total_gates": 757
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_grover_5_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.14767279208172113
+        ],
+        "step_improvements": [
+          -500.0
+        ],
+        "total_duration_seconds": 0.1507040000287816
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/grover_5/step_0_qiskit_ai/one_opt_qiskit_ai_grover_5_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "ham15-high",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 3199,
+        "two_qubit_gates": 2143,
+        "two_qubit_depth": 1783,
+        "total_gates": 5059
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_ham15-high_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          4.501997082959861
+        ],
+        "step_improvements": [
+          -443.9086294416244
+        ],
+        "total_duration_seconds": 4.5201087079476565
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/ham15-high/step_0_qiskit_ai/one_opt_qiskit_ai_ham15-high_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "ham15-low",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 294,
+        "two_qubit_gates": 236,
+        "two_qubit_depth": 177,
+        "total_gates": 464
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_ham15-low_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.0763377919793129
+        ],
+        "step_improvements": [
+          -95.04132231404958
+        ],
+        "total_duration_seconds": 0.07820333307608962
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/ham15-low/step_0_qiskit_ai/one_opt_qiskit_ai_ham15-low_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "ham15-med",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 767,
+        "two_qubit_gates": 533,
+        "two_qubit_depth": 444,
+        "total_gates": 1252
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_ham15-med_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.36916470795404166
+        ],
+        "step_improvements": [
+          -329.83870967741933
+        ],
+        "total_duration_seconds": 0.3739492919994518
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/ham15-med/step_0_qiskit_ai/one_opt_qiskit_ai_ham15-med_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "hwb6",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 173,
+        "two_qubit_gates": 115,
+        "two_qubit_depth": 94,
+        "total_gates": 283
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_hwb6_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.037605333025567234
+        ],
+        "step_improvements": [
+          -180.4878048780488
+        ],
+        "total_duration_seconds": 0.03894429199863225
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/hwb6/step_0_qiskit_ai/one_opt_qiskit_ai_hwb6_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "inverseqft1",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 26,
+        "two_qubit_gates": 1,
+        "two_qubit_depth": 1,
+        "total_gates": 35
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_inverseqft1_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.016063999966718256
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.016750959097407758
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/inverseqft1/step_0_qiskit_ai/one_opt_qiskit_ai_inverseqft1_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "inverseqft2",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 18,
+        "two_qubit_gates": 1,
+        "two_qubit_depth": 1,
+        "total_gates": 30
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_inverseqft2_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.010974540957249701
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.011512416996993124
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/inverseqft2/step_0_qiskit_ai/one_opt_qiskit_ai_inverseqft2_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "mod5_4",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 59,
+        "two_qubit_gates": 28,
+        "two_qubit_depth": 28,
+        "total_gates": 68
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_mod5_4_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.010568291996605694
+        ],
+        "step_improvements": [
+          -250.0
+        ],
+        "total_duration_seconds": 0.011085000005550683
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/mod5_4/step_0_qiskit_ai/one_opt_qiskit_ai_mod5_4_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "mod_mult_55",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 56,
+        "two_qubit_gates": 48,
+        "two_qubit_depth": 29,
+        "total_gates": 135
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_mod_mult_55_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.018512458074837923
+        ],
+        "step_improvements": [
+          -269.2307692307692
+        ],
+        "total_duration_seconds": 0.019295375095680356
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/mod_mult_55/step_0_qiskit_ai/one_opt_qiskit_ai_mod_mult_55_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "mod_red_21",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 179,
+        "two_qubit_gates": 105,
+        "two_qubit_depth": 91,
+        "total_gates": 285
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_mod_red_21_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.03979837498627603
+        ],
+        "step_improvements": [
+          -425.0
+        ],
+        "total_duration_seconds": 0.04110058303922415
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/mod_red_21/step_0_qiskit_ai/one_opt_qiskit_ai_mod_red_21_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qec",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 10,
+        "two_qubit_gates": 5,
+        "two_qubit_depth": 5,
+        "total_gates": 13
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qec_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.007610000087879598
+        ],
+        "step_improvements": [
+          -150.0
+        ],
+        "total_duration_seconds": 0.00799433293286711
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qec/step_0_qiskit_ai/one_opt_qiskit_ai_qec_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 24,
+        "two_qubit_gates": 13,
+        "two_qubit_depth": 11,
+        "total_gates": 38
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.006691916030831635
+        ],
+        "step_improvements": [
+          -85.71428571428571
+        ],
+        "total_duration_seconds": 0.0071055840235203505
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft/step_0_qiskit_ai/one_opt_qiskit_ai_qft_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_4",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 82,
+        "two_qubit_gates": 44,
+        "two_qubit_depth": 43,
+        "total_gates": 129
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_4_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.016311375075019896
+        ],
+        "step_improvements": [
+          -22.22222222222222
+        ],
+        "total_duration_seconds": 0.01711695804260671
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_4/step_0_qiskit_ai/one_opt_qiskit_ai_qft_4_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "rb",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 20,
+        "two_qubit_gates": 6,
+        "two_qubit_depth": 6,
+        "total_gates": 22
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_rb_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.00563241692725569
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.005983292008750141
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/rb/step_0_qiskit_ai/one_opt_qiskit_ai_rb_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "rc_adder_6",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 114,
+        "two_qubit_gates": 81,
+        "two_qubit_depth": 57,
+        "total_gates": 209
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_rc_adder_6_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.030412208987399936
+        ],
+        "step_improvements": [
+          -113.15789473684211
+        ],
+        "total_duration_seconds": 0.0314730410464108
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/rc_adder_6/step_0_qiskit_ai/one_opt_qiskit_ai_rc_adder_6_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "teleport",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 12,
+        "two_qubit_gates": 3,
+        "two_qubit_depth": 3,
+        "total_gates": 17
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_teleport_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.00733475002925843
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.007757417042739689
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/teleport/step_0_qiskit_ai/one_opt_qiskit_ai_teleport_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "tof_10",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 191,
+        "two_qubit_gates": 102,
+        "two_qubit_depth": 94,
+        "total_gates": 290
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_tof_10_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.04586595809087157
+        ],
+        "step_improvements": [
+          -500.0
+        ],
+        "total_duration_seconds": 0.04723129200283438
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/tof_10/step_0_qiskit_ai/one_opt_qiskit_ai_tof_10_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "tof_3",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 37,
+        "two_qubit_gates": 18,
+        "two_qubit_depth": 17,
+        "total_gates": 52
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_tof_3_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.008990708040073514
+        ],
+        "step_improvements": [
+          -500.0
+        ],
+        "total_duration_seconds": 0.009473124984651804
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/tof_3/step_0_qiskit_ai/one_opt_qiskit_ai_tof_3_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "tof_4",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 61,
+        "two_qubit_gates": 30,
+        "two_qubit_depth": 28,
+        "total_gates": 86
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_tof_4_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.012172708055004478
+        ],
+        "step_improvements": [
+          -500.0
+        ],
+        "total_duration_seconds": 0.012759875040501356
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/tof_4/step_0_qiskit_ai/one_opt_qiskit_ai_tof_4_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "tof_5",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 84,
+        "two_qubit_gates": 42,
+        "two_qubit_depth": 39,
+        "total_gates": 120
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_tof_5_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.016399499960243702
+        ],
+        "step_improvements": [
+          -500.0
+        ],
+        "total_duration_seconds": 0.017155042034573853
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/tof_5/step_0_qiskit_ai/one_opt_qiskit_ai_tof_5_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "vbe_adder_3",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 80,
+        "two_qubit_gates": 58,
+        "two_qubit_depth": 42,
+        "total_gates": 139
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_vbe_adder_3_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.01859745802357793
+        ],
+        "step_improvements": [
+          -190.0
+        ],
+        "total_duration_seconds": 0.019355125026777387
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/vbe_adder_3/step_0_qiskit_ai/one_opt_qiskit_ai_vbe_adder_3_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N10_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 95,
+        "two_qubit_gates": 96,
+        "two_qubit_depth": 61,
+        "total_gates": 324
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N10_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.054379665991291404
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.05629229103215039
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N10_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N10_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N11_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 115,
+        "two_qubit_gates": 108,
+        "two_qubit_depth": 73,
+        "total_gates": 360
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N11_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.06521491706371307
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.06743504200130701
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N11_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N11_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N12_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 109,
+        "two_qubit_gates": 120,
+        "two_qubit_depth": 72,
+        "total_gates": 396
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N12_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.07795054104644805
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.0802264999365434
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N12_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N12_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N13_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 112,
+        "two_qubit_gates": 132,
+        "two_qubit_depth": 76,
+        "total_gates": 432
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N13_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.08944716595578939
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.09191216703038663
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N13_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N13_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N14_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 119,
+        "two_qubit_gates": 144,
+        "two_qubit_depth": 82,
+        "total_gates": 467
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N14_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.2318219590233639
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.2345159579999745
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N14_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N14_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N15_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 112,
+        "two_qubit_gates": 156,
+        "two_qubit_depth": 76,
+        "total_gates": 501
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N15_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.11564262502361089
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.11843004205729812
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N15_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N15_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N16_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 148,
+        "two_qubit_gates": 168,
+        "two_qubit_depth": 106,
+        "total_gates": 538
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N16_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.1316850840812549
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.13467324990779161
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N16_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N16_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N17_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 148,
+        "two_qubit_gates": 180,
+        "two_qubit_depth": 111,
+        "total_gates": 575
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N17_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.14785170799586922
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.15105958306230605
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N17_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N17_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N18_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 148,
+        "two_qubit_gates": 192,
+        "two_qubit_depth": 109,
+        "total_gates": 613
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N18_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.16676516691222787
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.17015150003135204
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N18_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N18_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N19_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 158,
+        "two_qubit_gates": 204,
+        "two_qubit_depth": 121,
+        "total_gates": 647
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N19_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.1845531250583008
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.1880863329861313
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N19_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N19_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N20_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 176,
+        "two_qubit_gates": 216,
+        "two_qubit_depth": 131,
+        "total_gates": 684
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N20_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.20419566705822945
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.20803733298089355
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N20_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N20_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N3_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 36,
+        "two_qubit_gates": 11,
+        "two_qubit_depth": 11,
+        "total_gates": 73
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N3_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.009909666958265007
+        ],
+        "step_improvements": [
+          8.333333333333334
+        ],
+        "total_duration_seconds": 0.010573041974566877
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N3_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N3_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N4_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 46,
+        "two_qubit_gates": 24,
+        "two_qubit_depth": 21,
+        "total_gates": 107
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N4_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.01321524998638779
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.014032459002919495
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N4_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N4_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N5_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 50,
+        "two_qubit_gates": 36,
+        "two_qubit_depth": 26,
+        "total_gates": 143
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N5_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.01734879205469042
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.018364791991189122
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N5_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N5_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N6_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 65,
+        "two_qubit_gates": 48,
+        "two_qubit_depth": 39,
+        "total_gates": 178
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N6_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.023594792000949383
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.024792499956674874
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N6_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N6_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N7_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 75,
+        "two_qubit_gates": 60,
+        "two_qubit_depth": 42,
+        "total_gates": 214
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N7_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.028957832953892648
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.03036358393728733
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N7_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N7_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N8_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 87,
+        "two_qubit_gates": 72,
+        "two_qubit_depth": 50,
+        "total_gates": 252
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N8_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.03718175005633384
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.038689207984134555
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N8_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N8_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qaoa_barabasi_albert_N9_3reps",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 87,
+        "two_qubit_gates": 84,
+        "two_qubit_depth": 55,
+        "total_gates": 286
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qaoa_barabasi_albert_N9_3reps_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.04542224993929267
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.04713595798239112
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qaoa_barabasi_albert_N9_3reps/step_0_qiskit_ai/one_opt_qiskit_ai_qaoa_barabasi_albert_N9_3reps_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_10",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 135,
+        "two_qubit_gates": 105,
+        "two_qubit_depth": 97,
+        "total_gates": 242
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_10_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.04101929103489965
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.04226787493098527
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_10/step_0_qiskit_ai/one_opt_qiskit_ai_qft_10_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_12",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 190,
+        "two_qubit_gates": 150,
+        "two_qubit_depth": 139,
+        "total_gates": 340
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_12_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.06663504196330905
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.0682583749294281
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_12/step_0_qiskit_ai/one_opt_qiskit_ai_qft_12_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_16",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 325,
+        "two_qubit_gates": 264,
+        "two_qubit_depth": 249,
+        "total_gates": 582
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_16_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.1629392090253532
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.16566654201596975
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_16/step_0_qiskit_ai/one_opt_qiskit_ai_qft_16_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_8",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 65,
+        "two_qubit_gates": 56,
+        "two_qubit_depth": 47,
+        "total_gates": 129
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_8_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.020681958994828165
+        ],
+        "step_improvements": [
+          -100.0
+        ],
+        "total_duration_seconds": 0.02145650004968047
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_8/step_0_qiskit_ai/one_opt_qiskit_ai_qft_8_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N002",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 11,
+        "two_qubit_gates": 3,
+        "two_qubit_depth": 3,
+        "total_gates": 17
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N002_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.005202834028750658
+        ],
+        "step_improvements": [
+          40.0
+        ],
+        "total_duration_seconds": 0.0055331249022856355
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N002/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N002_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N003",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 20,
+        "two_qubit_gates": 9,
+        "two_qubit_depth": 9,
+        "total_gates": 25
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N003_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.00734441599342972
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.007716791937127709
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N003/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N003_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N004",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 27,
+        "two_qubit_gates": 18,
+        "two_qubit_depth": 15,
+        "total_gates": 42
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N004_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.00920470803976059
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.009654416935518384
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N004/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N004_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N005",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 36,
+        "two_qubit_gates": 26,
+        "two_qubit_depth": 22,
+        "total_gates": 60
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N005_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.011241500033065677
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.011813667020760477
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N005/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N005_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N006",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 47,
+        "two_qubit_gates": 39,
+        "two_qubit_depth": 30,
+        "total_gates": 85
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N006_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.014017959008924663
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.014606207958422601
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N006/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N006_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N007",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 56,
+        "two_qubit_gates": 51,
+        "two_qubit_depth": 38,
+        "total_gates": 111
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N007_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.017167125013656914
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.01788691699039191
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N007/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N007_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N008",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 66,
+        "two_qubit_gates": 68,
+        "two_qubit_depth": 47,
+        "total_gates": 146
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N008_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.022565916064195335
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.023379625054076314
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N008/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N008_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N009",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 74,
+        "two_qubit_gates": 84,
+        "two_qubit_depth": 49,
+        "total_gates": 180
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N009_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.029014417086727917
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.029962209053337574
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N009/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N009_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N010",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 95,
+        "two_qubit_gates": 105,
+        "two_qubit_depth": 70,
+        "total_gates": 221
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N010_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.03827287501189858
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.03937004099134356
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N010/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N010_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N011",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 116,
+        "two_qubit_gates": 125,
+        "two_qubit_depth": 85,
+        "total_gates": 260
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N011_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.04885145800653845
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.05005079205147922
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N011/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N011_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N012",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 113,
+        "two_qubit_gates": 150,
+        "two_qubit_depth": 81,
+        "total_gates": 312
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N012_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.0630800420185551
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.06451020808890462
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N012/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N012_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N013",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 141,
+        "two_qubit_gates": 174,
+        "two_qubit_depth": 105,
+        "total_gates": 360
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N013_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.07981250004377216
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.08138241700362414
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N013/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N013_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N014",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 170,
+        "two_qubit_gates": 203,
+        "two_qubit_depth": 131,
+        "total_gates": 419
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N014_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.10215441707987338
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.10392075008712709
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N014/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N014_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N015",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 188,
+        "two_qubit_gates": 231,
+        "two_qubit_depth": 143,
+        "total_gates": 477
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N015_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.12577191705349833
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.12774312496185303
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N015/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N015_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N016",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 224,
+        "two_qubit_gates": 264,
+        "two_qubit_depth": 179,
+        "total_gates": 542
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N016_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.15819458302576095
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.16038662497885525
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N016/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N016_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N017",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 179,
+        "two_qubit_gates": 296,
+        "two_qubit_depth": 137,
+        "total_gates": 606
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N017_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.19247416604775935
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.1948924579191953
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N017/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N017_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N018",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 203,
+        "two_qubit_gates": 333,
+        "two_qubit_depth": 153,
+        "total_gates": 679
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N018_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.23539012495893985
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.23813016701024026
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N018/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N018_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N019",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 216,
+        "two_qubit_gates": 369,
+        "two_qubit_depth": 163,
+        "total_gates": 753
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N019_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.2825653749750927
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.28566962492186576
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N019/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N019_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qft_N020",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 221,
+        "two_qubit_gates": 410,
+        "two_qubit_depth": 173,
+        "total_gates": 836
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qft_N020_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.343852375051938
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.3472089159768075
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qft_N020/step_0_qiskit_ai/one_opt_qiskit_ai_qft_N020_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N002_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 16,
+        "two_qubit_gates": 3,
+        "two_qubit_depth": 3,
+        "total_gates": 28
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N002_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.006007625022903085
+        ],
+        "step_improvements": [
+          50.0
+        ],
+        "total_duration_seconds": 0.00652495794929564
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N002_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N002_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N003_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 27,
+        "two_qubit_gates": 6,
+        "two_qubit_depth": 6,
+        "total_gates": 51
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N003_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.007901250035502017
+        ],
+        "step_improvements": [
+          33.333333333333336
+        ],
+        "total_duration_seconds": 0.00858150003477931
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N003_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N003_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N004_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 51,
+        "two_qubit_gates": 24,
+        "two_qubit_depth": 12,
+        "total_gates": 164
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N004_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.017375582945533097
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.018559874966740608
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N004_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N004_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N005_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 61,
+        "two_qubit_gates": 27,
+        "two_qubit_depth": 15,
+        "total_gates": 187
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N005_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.021434584050439298
+        ],
+        "step_improvements": [
+          10.0
+        ],
+        "total_duration_seconds": 0.02276958292350173
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N005_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N005_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N006_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 62,
+        "two_qubit_gates": 36,
+        "two_qubit_depth": 15,
+        "total_gates": 246
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N006_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.03158049995545298
+        ],
+        "step_improvements": [
+          33.333333333333336
+        ],
+        "total_duration_seconds": 0.03327033296227455
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N006_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N006_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N007_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 86,
+        "two_qubit_gates": 63,
+        "two_qubit_depth": 21,
+        "total_gates": 413
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N007_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.06536295800469816
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.06888525001704693
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N007_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N007_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N008_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 98,
+        "two_qubit_gates": 90,
+        "two_qubit_depth": 24,
+        "total_gates": 580
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N008_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.11727258306927979
+        ],
+        "step_improvements": [
+          6.25
+        ],
+        "total_duration_seconds": 0.12076133291702718
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N008_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N008_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N009_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 109,
+        "two_qubit_gates": 93,
+        "two_qubit_depth": 27,
+        "total_gates": 603
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N009_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.12984025001060218
+        ],
+        "step_improvements": [
+          13.88888888888889
+        ],
+        "total_duration_seconds": 0.13348595809657127
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N009_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N009_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N010_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 121,
+        "two_qubit_gates": 150,
+        "two_qubit_depth": 30,
+        "total_gates": 950
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N010_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.40398325002752244
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.4097384170163423
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N010_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N010_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N011_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 133,
+        "two_qubit_gates": 141,
+        "two_qubit_depth": 33,
+        "total_gates": 901
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N011_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.2620173339964822
+        ],
+        "step_improvements": [
+          14.545454545454545
+        ],
+        "total_duration_seconds": 0.2674235000740737
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N011_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N011_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N012_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 146,
+        "two_qubit_gates": 200,
+        "two_qubit_depth": 36,
+        "total_gates": 1261
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N012_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.47651262499857694
+        ],
+        "step_improvements": [
+          7.407407407407407
+        ],
+        "total_duration_seconds": 0.48394937498960644
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N012_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N012_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N013_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 157,
+        "two_qubit_gates": 218,
+        "two_qubit_depth": 39,
+        "total_gates": 1374
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N013_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.5619618750642985
+        ],
+        "step_improvements": [
+          6.837606837606837
+        ],
+        "total_duration_seconds": 0.5717830839566886
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N013_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N013_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N014_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 172,
+        "two_qubit_gates": 267,
+        "two_qubit_depth": 42,
+        "total_gates": 1672
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N014_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.8031639580149204
+        ],
+        "step_improvements": [
+          9.183673469387756
+        ],
+        "total_duration_seconds": 0.8130432920297608
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N014_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N014_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N015_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 186,
+        "two_qubit_gates": 291,
+        "two_qubit_depth": 45,
+        "total_gates": 1821
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N015_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.9393711671000347
+        ],
+        "step_improvements": [
+          7.619047619047619
+        ],
+        "total_duration_seconds": 0.9497768750879914
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N015_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N015_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N016_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 199,
+        "two_qubit_gates": 365,
+        "two_qubit_depth": 48,
+        "total_gates": 2272
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N016_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          1.5622454999247566
+        ],
+        "step_improvements": [
+          4.947916666666667
+        ],
+        "total_duration_seconds": 1.575216458993964
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N016_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N016_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N017_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 210,
+        "two_qubit_gates": 383,
+        "two_qubit_depth": 51,
+        "total_gates": 2385
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N017_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          1.578697832999751
+        ],
+        "step_improvements": [
+          6.127450980392157
+        ],
+        "total_duration_seconds": 1.5925440409919247
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N017_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N017_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N018_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 225,
+        "two_qubit_gates": 455,
+        "two_qubit_depth": 54,
+        "total_gates": 2821
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N018_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          2.1240174579434097
+        ],
+        "step_improvements": [
+          6.378600823045267
+        ],
+        "total_duration_seconds": 2.140308125060983
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N018_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N018_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "qv_N019_12345",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 237,
+        "two_qubit_gates": 488,
+        "two_qubit_depth": 57,
+        "total_gates": 3025
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_qv_N019_12345_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          2.3793252090690657
+        ],
+        "step_improvements": [
+          4.8732943469785575
+        ],
+        "total_duration_seconds": 2.5142171250190586
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/qv_N019_12345/step_0_qiskit_ai/one_opt_qiskit_ai_qv_N019_12345_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "real_amplitudes_12",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 25,
+        "two_qubit_gates": 22,
+        "two_qubit_depth": 13,
+        "total_gates": 160
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_real_amplitudes_12_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.021978875040076673
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.023002667003311217
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/real_amplitudes_12/step_0_qiskit_ai/one_opt_qiskit_ai_real_amplitudes_12_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "real_amplitudes_12_r3",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 15,
+        "two_qubit_gates": 33,
+        "two_qubit_depth": 15,
+        "total_gates": 33
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_real_amplitudes_12_r3_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.008221375057473779
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.008584208087995648
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/real_amplitudes_12_r3/step_0_qiskit_ai/one_opt_qiskit_ai_real_amplitudes_12_r3_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "real_amplitudes_16_r2",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 17,
+        "two_qubit_gates": 30,
+        "two_qubit_depth": 17,
+        "total_gates": 30
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_real_amplitudes_16_r2_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.008607583004049957
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.008958707912825048
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/real_amplitudes_16_r2/step_0_qiskit_ai/one_opt_qiskit_ai_real_amplitudes_16_r2_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "real_amplitudes_8",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 27,
+        "two_qubit_gates": 21,
+        "two_qubit_depth": 11,
+        "total_gates": 149
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_real_amplitudes_8_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.01806866703554988
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.018989125033840537
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/real_amplitudes_8/step_0_qiskit_ai/one_opt_qiskit_ai_real_amplitudes_8_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "real_amplitudes_8_r2",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 9,
+        "two_qubit_gates": 14,
+        "two_qubit_depth": 9,
+        "total_gates": 14
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_real_amplitudes_8_r2_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.005577582982368767
+        ],
+        "step_improvements": [
+          0.0
+        ],
+        "total_duration_seconds": 0.005856750067323446
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/real_amplitudes_8_r2/step_0_qiskit_ai/one_opt_qiskit_ai_real_amplitudes_8_r2_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "square_heisenberg_N16",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 106,
+        "two_qubit_gates": 72,
+        "two_qubit_depth": 38,
+        "total_gates": 333
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_square_heisenberg_N16_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.05198495800141245
+        ],
+        "step_improvements": [
+          75.0
+        ],
+        "total_duration_seconds": 0.053760791081003845
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/square_heisenberg_N16/step_0_qiskit_ai/one_opt_qiskit_ai_square_heisenberg_N16_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "square_heisenberg_N4",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 35,
+        "two_qubit_gates": 12,
+        "two_qubit_depth": 12,
+        "total_gates": 57
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_square_heisenberg_N4_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.007892541005276144
+        ],
+        "step_improvements": [
+          75.0
+        ],
+        "total_duration_seconds": 0.008413124945946038
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/square_heisenberg_N4/step_0_qiskit_ai/one_opt_qiskit_ai_square_heisenberg_N4_qiskit_ai_step0_qiskit_ai.qasm"
+    },
+    {
+      "circuit": "square_heisenberg_N9",
+      "runner": "qiskit_ai",
+      "optimizer": "chain",
+      "label": "chain_qiskit_ai",
+      "metrics": {
+        "depth": 71,
+        "two_qubit_gates": 36,
+        "two_qubit_depth": 25,
+        "total_gates": 168
+      },
+      "metadata": {
+        "chain_name": "one_opt_qiskit_ai_square_heisenberg_N9_qiskit_ai",
+        "num_steps": 1,
+        "steps": [
+          {
+            "name": "qiskit_ai",
+            "runner_type": "qiskit_ai"
+          }
+        ],
+        "step_durations": [
+          0.020378416986204684
+        ],
+        "step_improvements": [
+          75.0
+        ],
+        "total_duration_seconds": 0.021391625050455332
+      },
+      "artifact_path": "brute_force_chains/cheap_optimizers/full_run/one_opt_qiskit_ai/reports/chains/qiskit_ai/square_heisenberg_N9/step_0_qiskit_ai/one_opt_qiskit_ai_square_heisenberg_N9_qiskit_ai_step0_qiskit_ai.qasm"
+    }
+  ],
+  "failures": [
+    {
+      "circuit": "adder",
+      "runner": "qiskit_ai",
+      "error": "could not broadcast input array from shape (3,2) into shape (3,3)"
+    },
+    {
+      "circuit": "bigadder",
+      "runner": "qiskit_ai",
+      "error": "could not broadcast input array from shape (3,2) into shape (3,3)"
+    },
+    {
+      "circuit": "qpt",
+      "runner": "qiskit_ai",
+      "error": "ERROR. One of these options must be set: backend or coupling_map."
+    },
+    {
+      "circuit": "teleportv2",
+      "runner": "qiskit_ai",
+      "error": "'OpenQASM 2 only supports conditionals on single instructions'"
+    }
+  ]
+}
