@@ -189,7 +189,7 @@ Examples:
     parser.add_argument(
         "--wisq-bqskit-timeout",
         type=int,
-        default=300,
+        default=120,
         help="Timeout for WISQ+BQSKit in seconds (default: 300 = 5 min)",
     )
 
